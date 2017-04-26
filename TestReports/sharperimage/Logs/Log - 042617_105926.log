@@ -1,0 +1,515 @@
+[INFO ][2017-04-26 10:59:26,286] -  Reading Properties from Property File 
+[INFO ][2017-04-26 10:59:26,286] - Reading properties from Property File :..//properties//sharperimage.xml
+[INFO ][2017-04-26 10:59:26,287] -  Creating Document Builder Factory 
+[INFO ][2017-04-26 10:59:26,292] -  Document object created to parse the CML File 
+[INFO ][2017-04-26 10:59:26,292] -  Reading the properties for App details 
+[INFO ][2017-04-26 10:59:26,292] -  Reading properties for appDetails
+[INFO ][2017-04-26 10:59:26,296] -  Read Property logo :: https://upload.wikimedia.org/wikipedia/en/0/02/Group_O_Logo_2013.png
+[INFO ][2017-04-26 10:59:26,296] -  Reading the common properties
+[INFO ][2017-04-26 10:59:26,296] -  Reading properties for common
+[INFO ][2017-04-26 10:59:26,301] -  Read Property reportFailureAsBug :: false
+[INFO ][2017-04-26 10:59:26,301] -  Read Property sendMailReport :: true
+[INFO ][2017-04-26 10:59:26,301] -  Read Property executeFailedCases :: false
+[INFO ][2017-04-26 10:59:26,301] -  Read Property noOfIterations :: 2
+[INFO ][2017-04-26 10:59:26,301] -  Read Property updateResultsDB :: true
+[INFO ][2017-04-26 10:59:26,301] -  Read Property useGrid :: false
+[INFO ][2017-04-26 10:59:26,301] -  Reading the misc properties
+[INFO ][2017-04-26 10:59:26,301] -  Reading properties for misc
+[INFO ][2017-04-26 10:59:26,304] -  Read Property reportPriority :: true
+[INFO ][2017-04-26 10:59:26,304] -  Read Property reportReq :: true
+[INFO ][2017-04-26 10:59:26,304] -  Read Property clearCookies :: true
+[INFO ][2017-04-26 10:59:26,304] -  Read Property closeBrowserSessions :: true
+[INFO ][2017-04-26 10:59:26,304] -  Read Property detailedLogs :: false
+[INFO ][2017-04-26 10:59:26,304] -  Read Property createEvidence :: true
+[INFO ][2017-04-26 10:59:26,304] -  Read Property steplevelscreenshot :: false
+[INFO ][2017-04-26 10:59:26,304] -  Read Property mergeReports :: true
+[INFO ][2017-04-26 10:59:26,304] -  Reading the Application Android properties
+[INFO ][2017-04-26 10:59:26,305] -  Reading properties for android
+[INFO ][2017-04-26 10:59:26,307] -  Read Property MobileAppPackageName :: com.entradahealth.entrada.android
+[INFO ][2017-04-26 10:59:26,307] -  Read Property MobileAppActivityName :: com.entradahealth.entrada.android
+[INFO ][2017-04-26 10:59:26,307] -  Read Property AndroidVersion :: 4.2
+[INFO ][2017-04-26 10:59:26,307] -  Read Property AndroidAutomationPlatform :: Windows
+[INFO ][2017-04-26 10:59:26,307] -  Read Property ApkPath :: D:\E2E Framework\TestInputs\Kesineni_POC_Android_V0.7_.apk
+[INFO ][2017-04-26 10:59:26,307] -  Reading the Application Database properties
+[INFO ][2017-04-26 10:59:26,307] -  Reading properties for appDataDB
+[INFO ][2017-04-26 10:59:26,309] -  Read Property appDB_URL :: jdbc:mysql://localhost:3306/
+[INFO ][2017-04-26 10:59:26,309] -  Read Property appDB_driver :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 10:59:26,309] -  Read Property appDB_userName :: root
+[INFO ][2017-04-26 10:59:26,309] -  Read Property appDB_password :: root
+[INFO ][2017-04-26 10:59:26,309] -  Read Property app_DatabaseName :: sample
+[INFO ][2017-04-26 10:59:26,309] -  Property :: isGridEnabled -> false
+[INFO ][2017-04-26 10:59:26,309] -  Property :: reportFailureAsBug -> false
+[INFO ][2017-04-26 10:59:26,309] -  Property :: executeFailedCases -> false
+[INFO ][2017-04-26 10:59:26,309] -  Property :: noOfIterations -> 2
+[INFO ][2017-04-26 10:59:26,310] -  Property :: sendMailReport -> true
+[INFO ][2017-04-26 10:59:26,310] -  Property :: updateResultsDB -> true
+[INFO ][2017-04-26 10:59:26,310] -  Property :: reportPriority -> true
+[INFO ][2017-04-26 10:59:26,310] -  Property :: reportReq -> true
+[INFO ][2017-04-26 10:59:26,310] -  Property :: clearCookies -> true
+[INFO ][2017-04-26 10:59:26,310] -  Property :: closeBrowserSessions -> true
+[INFO ][2017-04-26 10:59:26,310] -  Property :: detailedLog -> false
+[INFO ][2017-04-26 10:59:26,310] -  Property :: steplevelscreenshot -> false
+[INFO ][2017-04-26 10:59:26,310] -  Property :: createEvidence -> true
+[INFO ][2017-04-26 10:59:26,310] -  Property :: useObjectRepo -> true
+[INFO ][2017-04-26 10:59:26,310] -  Property :: screenShotdir -> D:\E2E_java8\E2E_Framework\TestInputs\..\ScreenShots\
+[INFO ][2017-04-26 10:59:26,310] -  Property :: createpdf -> false
+[INFO ][2017-04-26 10:59:26,310] -  Property :: mergeReports -> true
+[INFO ][2017-04-26 10:59:26,310] -  Property :: mergeReports -> true
+[INFO ][2017-04-26 10:59:26,310] -  Screenshots directory is D:\E2E_java8\E2E_Framework\TestInputs\..\ScreenShots\
+[INFO ][2017-04-26 10:59:26,310] -  Reading details of email configuration 
+[INFO ][2017-04-26 10:59:26,310] -  Reading properties for email
+[INFO ][2017-04-26 10:59:26,312] -  Read Property SMTP_HOST_NAME :: mail01.valuelabs.com
+[INFO ][2017-04-26 10:59:26,312] -  Read Property SMTP_PORT :: 25
+[INFO ][2017-04-26 10:59:26,312] -  Read Property reportType :: Basic
+[INFO ][2017-04-26 10:59:26,312] -  Read Property recipients :: tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 10:59:26,312] -  Read Property subject :: Sharperimage Report
+[INFO ][2017-04-26 10:59:26,312] -  Read Property from :: tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 10:59:26,313] -  Read Property message :: <body><font size=4 color=DarkBlue><title>&nbsp; Sharperimage &nbsp;Execution Summary</title><br/><b>Hi All,</b><br/><br/>&nbsp;&nbsp;Please find the Automation execution summary for<em><b>&nbsp; Sharperimage &nbsp;</b></em><br/><br> &&Counters&& <br> <br/><br/>&nbsp;<b>Note</b>:This is an automatic  mail generated by Automation Script 
+		<br/><br/><div><em>Thank you,<br>Automation team.</br></em></div></font></body>
+[INFO ][2017-04-26 10:59:26,313] -  Data Source is sharperimage.xls
+[INFO ][2017-04-26 10:59:26,313] -  Reading the detils of testdata DB 
+[INFO ][2017-04-26 10:59:26,313] -  Reading properties for testdataDB
+[INFO ][2017-04-26 10:59:26,321] -  Read Property password :: root
+[INFO ][2017-04-26 10:59:26,321] -  Read Property userName :: root
+[INFO ][2017-04-26 10:59:26,321] -  Read Property driver :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 10:59:26,321] -  Read Property url :: jdbc:mysql://localhost:3306/
+[INFO ][2017-04-26 10:59:26,321] -  Read Property dbName :: phpscheduler
+[INFO ][2017-04-26 10:59:26,321] -  Reading Config Data 
+[INFO ][2017-04-26 10:59:26,321] -  TestCases to be executed [1]
+[INFO ][2017-04-26 10:59:26,321] -  Application URL  :: null
+[INFO ][2017-04-26 10:59:26,321] -  Base URL for using $baseURL :: https://www.sharperimage.com
+[INFO ][2017-04-26 10:59:26,321] -  Base URL :: https://www.sharperimage.com
+[INFO ][2017-04-26 10:59:26,321] -  Browser :: CHROME
+[INFO ][2017-04-26 10:59:26,321] -  Invoking Browser 
+[INFO ][2017-04-26 10:59:26,321] -  All the browser sessions are closed 
+[INFO ][2017-04-26 10:59:31,516] -  Chrome browser is invoked
+[INFO ][2017-04-26 10:59:34,650] -  Ready to execute the tests 
+[INFO ][2017-04-26 10:59:34,650] -  Getting the Log Execution Value 
+[INFO ][2017-04-26 10:59:34,652] -  JDBC Class  :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 10:59:34,652] -  Database Name :: phpscheduler
+[INFO ][2017-04-26 10:59:34,652] -  DB Username :: root
+[INFO ][2017-04-26 10:59:34,652] -  DB Password :: root
+[ERROR][2017-04-26 10:59:36,796] -  Exception while retrieving max log value from DB
+[ERROR][2017-04-26 10:59:36,797] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ][2017-04-26 10:59:36,797] -  Max Log Value :: 042617_105934
+[INFO ][2017-04-26 10:59:36,804] -  Creating Excel File for test results 
+[INFO ][2017-04-26 10:59:36,881] -  Excel File is created with headers 
+[INFO ][2017-04-26 10:59:56,486] -  Executing Test Case 1
+[INFO ][2017-04-26 10:59:56,486] -  Reading TestData for test case 1 from Excel 
+[INFO ][2017-04-26 10:59:56,486] -  FileName is :: sharperimage.xls
+[INFO ][2017-04-26 10:59:56,489] -  Reading Test Case Title 
+[INFO ][2017-04-26 10:59:56,725] -  Read TestCase Title :: TestCase ID : 1
+[INFO ][2017-04-26 10:59:56,725] -  Reading Values for Template test data 
+[ERROR][2017-04-26 10:59:56,726] -  Encountered Exception while reading Template TestData 
+[ERROR][2017-04-26 10:59:56,727] - No records found
+[INFO ][2017-04-26 10:59:56,727] -  Reading Requirement ID's 
+[INFO ][2017-04-26 10:59:56,732] -  Reading Priority Values 
+[INFO ][2017-04-26 10:59:56,735] -  Reading Object Repository 
+[INFO ][2017-04-26 10:59:56,736] -  Reading Parameter Values 
+[INFO ][2017-04-26 10:59:56,740] -  Reading Test Case Steps 
+[INFO ][2017-04-26 10:59:56,764] -  Executing Test Case 1 :: Step - 1
+[INFO ][2017-04-26 10:59:56,793] -  Action :: WAITFORELEMENT
+[INFO ][2017-04-26 10:59:56,793] -  DataFields :: XPHobj:PopUp
+[INFO ][2017-04-26 10:59:56,793] -  DataValues :: 40000
+[INFO ][2017-04-26 10:59:56,793] -  FieldName :: Wait for popup
+[INFO ][2017-04-26 10:59:56,793] -  Executing WAITFORELEMENT
+[INFO ][2017-04-26 10:59:56,794] -  Performing wait for element 
+[INFO ][2017-04-26 10:59:56,794] -  Field = //span[@id='popup-close-firstVisit']
+[INFO ][2017-04-26 10:59:56,794] -  Waiting for Wait for popup
+[INFO ][2017-04-26 11:00:09,884] -  RESULT true
+[INFO ][2017-04-26 11:00:09,885] -  Directory Created :: Log Name
+[INFO ][2017-04-26 11:00:09,886] -  Directory Created :: Test Case ID
+[INFO ][2017-04-26 11:00:09,886] -  Creating Evidence PDF File 
+[INFO ][2017-04-26 11:00:13,203] -  P A S S 
+[INFO ][2017-04-26 11:00:13,203] -  Executing Test Case 1 :: Step - 2
+[INFO ][2017-04-26 11:00:13,204] -  Action :: VERIFY
+[INFO ][2017-04-26 11:00:13,204] -  DataFields :: BTN
+[INFO ][2017-04-26 11:00:13,204] -  DataValues :: obj:PopUp
+[INFO ][2017-04-26 11:00:13,204] -  FieldName :: verify the popup
+[INFO ][2017-04-26 11:00:13,204] -  Executing VERIFY
+[INFO ][2017-04-26 11:00:13,204] -  value = obj:PopUp
+[INFO ][2017-04-26 11:00:13,205] -  Field = //span[@id='popup-close-firstVisit']
+[INFO ][2017-04-26 11:00:13,288] -  RESULT true
+[INFO ][2017-04-26 11:00:14,113] -  IF condition is used IF:NEXT:4
+[INFO ][2017-04-26 11:00:14,113] -  Skipping execution to step 2
+[INFO ][2017-04-26 11:00:14,113] -  Executing Test Case 1 :: Step - 3
+[INFO ][2017-04-26 11:00:14,114] -  Action :: CLICK
+[INFO ][2017-04-26 11:00:14,114] -  DataFields :: BTNobj:Popup
+[INFO ][2017-04-26 11:00:14,114] -  DataValues :: 
+[INFO ][2017-04-26 11:00:14,114] -  FieldName :: if popup is present click the close button
+[INFO ][2017-04-26 11:00:14,114] -  Executing CLICK
+[INFO ][2017-04-26 11:00:14,114] -  Field = //span[@id='popup-close-firstVisit']
+[INFO ][2017-04-26 11:00:14,132] -  Clicking on field if popup is present click the close button
+[INFO ][2017-04-26 11:00:15,219] -  RESULT true
+[INFO ][2017-04-26 11:00:16,262] -  P A S S 
+[INFO ][2017-04-26 11:00:16,262] -  Executing Test Case 1 :: Step - 4
+[INFO ][2017-04-26 11:00:16,262] -  Action :: VERIFY
+[INFO ][2017-04-26 11:00:16,262] -  DataFields :: BTN
+[INFO ][2017-04-26 11:00:16,262] -  DataValues :: obj:category
+[INFO ][2017-04-26 11:00:16,262] -  FieldName :: verify the categories dropdown
+[INFO ][2017-04-26 11:00:16,262] -  Executing VERIFY
+[INFO ][2017-04-26 11:00:16,263] -  value = obj:category
+[INFO ][2017-04-26 11:00:16,263] -  Field = //a[text()='Shop All Categories']
+[INFO ][2017-04-26 11:00:16,370] -  RESULT true
+[INFO ][2017-04-26 11:00:17,400] -  IF condition is used IF:NEXT:LAST
+[INFO ][2017-04-26 11:00:17,400] -  Skipping execution to step 4
+[INFO ][2017-04-26 11:00:17,400] -  Executing Test Case 1 :: Step - 5
+[INFO ][2017-04-26 11:00:17,400] -  Action :: CLICK
+[INFO ][2017-04-26 11:00:17,400] -  DataFields :: LNKobj:Gadgets
+[INFO ][2017-04-26 11:00:17,400] -  DataValues :: 
+[INFO ][2017-04-26 11:00:17,400] -  FieldName :: click on gadgets
+[INFO ][2017-04-26 11:00:17,400] -  Executing CLICK
+[INFO ][2017-04-26 11:00:17,400] -  Field = //div[@class='row']//a[contains(.,'Gadgets') and @class='cat-select sec-cat-select']
+[INFO ][2017-04-26 11:00:17,428] -  Clicking on field click on gadgets
+[INFO ][2017-04-26 11:00:22,267] -  RESULT true
+[INFO ][2017-04-26 11:00:22,994] -  P A S S 
+[INFO ][2017-04-26 11:00:22,994] -  Executing Test Case 1 :: Step - 6
+[INFO ][2017-04-26 11:00:22,994] -  Action :: WAITFORELEMENT
+[INFO ][2017-04-26 11:00:22,994] -  DataFields :: XPHobj:GadgetsText
+[INFO ][2017-04-26 11:00:22,994] -  DataValues :: 40000
+[INFO ][2017-04-26 11:00:22,994] -  FieldName :: wait for gadgets text
+[INFO ][2017-04-26 11:00:22,994] -  Executing WAITFORELEMENT
+[INFO ][2017-04-26 11:00:22,994] -  Performing wait for element 
+[INFO ][2017-04-26 11:00:22,994] -  Field = //h1[text()='Gadgets']
+[INFO ][2017-04-26 11:00:22,994] -  Waiting for wait for gadgets text
+[INFO ][2017-04-26 11:00:23,079] -  RESULT true
+[INFO ][2017-04-26 11:00:23,681] -  P A S S 
+[INFO ][2017-04-26 11:00:23,681] -  Executing Test Case 1 :: Step - 7
+[INFO ][2017-04-26 11:00:23,682] -  Action :: CLICK
+[INFO ][2017-04-26 11:00:23,682] -  DataFields :: LNKobj:pricefilter
+[INFO ][2017-04-26 11:00:23,682] -  DataValues :: 
+[INFO ][2017-04-26 11:00:23,682] -  FieldName :: select price filter
+[INFO ][2017-04-26 11:00:23,682] -  Executing CLICK
+[INFO ][2017-04-26 11:00:23,682] -  Field = //li[text()='Price']/ul/li[3]/div/input
+[INFO ][2017-04-26 11:00:23,710] -  Clicking on field select price filter
+[INFO ][2017-04-26 11:00:28,123] -  RESULT true
+[INFO ][2017-04-26 11:00:28,780] -  P A S S 
+[INFO ][2017-04-26 11:00:28,780] -  Executing Test Case 1 :: Step - 8
+[INFO ][2017-04-26 11:00:28,780] -  Action :: CLICK
+[INFO ][2017-04-26 11:00:28,780] -  DataFields :: LNKobj:categryfilter
+[INFO ][2017-04-26 11:00:28,780] -  DataValues :: 
+[INFO ][2017-04-26 11:00:28,780] -  FieldName :: select category filter
+[INFO ][2017-04-26 11:00:28,780] -  Executing CLICK
+[INFO ][2017-04-26 11:00:28,780] -  Field = //li[text()='By Category']/ul/li[11]/div/input
+[INFO ][2017-04-26 11:00:28,809] -  Clicking on field select category filter
+[INFO ][2017-04-26 11:00:33,551] -  RESULT true
+[INFO ][2017-04-26 11:00:34,198] -  P A S S 
+[INFO ][2017-04-26 11:00:34,198] -  Executing Test Case 1 :: Step - 9
+[INFO ][2017-04-26 11:00:34,198] -  Action :: STOREVALUE
+[INFO ][2017-04-26 11:00:34,198] -  DataFields :: LNKobj:productlink
+[INFO ][2017-04-26 11:00:34,198] -  DataValues :: productname
+[INFO ][2017-04-26 11:00:34,198] -  FieldName :: store the name of product
+[INFO ][2017-04-26 11:00:34,198] -  Executing STOREVALUE
+[INFO ][2017-04-26 11:00:34,198] -  Field = //a[contains(text(),'VR One Plus Virtual Reality...')]
+[INFO ][2017-04-26 11:00:34,271] -  Storing the value for store the name of product  Value  -> VR One Plus Virtual Reality...
+[INFO ][2017-04-26 11:00:34,271] -  RESULT true
+[INFO ][2017-04-26 11:00:34,878] -  P A S S 
+[INFO ][2017-04-26 11:00:34,878] -  Executing Test Case 1 :: Step - 10
+[INFO ][2017-04-26 11:00:34,878] -  Action :: CLICK
+[INFO ][2017-04-26 11:00:34,878] -  DataFields :: LNKobj:productlink
+[INFO ][2017-04-26 11:00:34,878] -  DataValues :: 
+[INFO ][2017-04-26 11:00:34,878] -  FieldName :: click on product
+[INFO ][2017-04-26 11:00:34,878] -  Executing CLICK
+[INFO ][2017-04-26 11:00:34,878] -  Field = //a[contains(text(),'VR One Plus Virtual Reality...')]
+[INFO ][2017-04-26 11:00:34,895] -  Clicking on field click on product
+[INFO ][2017-04-26 11:00:39,397] -  RESULT true
+[INFO ][2017-04-26 11:00:40,191] -  P A S S 
+[INFO ][2017-04-26 11:00:40,191] -  Executing Test Case 1 :: Step - 11
+[INFO ][2017-04-26 11:00:40,191] -  Action :: VERIFYPRODUCT
+[INFO ][2017-04-26 11:00:40,191] -  DataFields :: XPHobj:product
+[INFO ][2017-04-26 11:00:40,191] -  DataValues :: productname
+[INFO ][2017-04-26 11:00:40,191] -  FieldName :: verify the product name with stored value
+[INFO ][2017-04-26 11:00:40,191] -  Executing VERIFYPRODUCT
+[INFO ][2017-04-26 11:00:40,192] -  Fetching from user defined keywords 
+[INFO ][2017-04-26 11:00:43,497] -  RESULT true
+[INFO ][2017-04-26 11:00:44,165] -  P A S S 
+[INFO ][2017-04-26 11:00:44,165] -  Executing Test Case 1 :: Step - 12
+[INFO ][2017-04-26 11:00:44,165] -  Action :: CLICK
+[INFO ][2017-04-26 11:00:44,165] -  DataFields :: BTNobj:cart
+[INFO ][2017-04-26 11:00:44,165] -  DataValues :: 
+[INFO ][2017-04-26 11:00:44,165] -  FieldName :: click add to cart button
+[INFO ][2017-04-26 11:00:44,165] -  Executing CLICK
+[INFO ][2017-04-26 11:00:44,165] -  Field = //input[@value='Add To Cart']
+[INFO ][2017-04-26 11:00:44,190] -  Clicking on field click add to cart button
+[INFO ][2017-04-26 11:00:51,726] -  RESULT true
+[INFO ][2017-04-26 11:00:52,230] -  P A S S 
+[INFO ][2017-04-26 11:00:52,230] -  Executing Test Case 1 :: Step - 13
+[INFO ][2017-04-26 11:00:52,230] -  Action :: WAITFORELEMENT
+[INFO ][2017-04-26 11:00:52,230] -  DataFields :: XPHobj:shopping
+[INFO ][2017-04-26 11:00:52,231] -  DataValues :: 40000
+[INFO ][2017-04-26 11:00:52,231] -  FieldName :: wait for shopping tab
+[INFO ][2017-04-26 11:00:52,231] -  Executing WAITFORELEMENT
+[INFO ][2017-04-26 11:00:52,231] -  Performing wait for element 
+[INFO ][2017-04-26 11:00:52,231] -  Field = //span[contains(text(),'Shopping Cart')]
+[INFO ][2017-04-26 11:00:52,231] -  Waiting for wait for shopping tab
+[INFO ][2017-04-26 11:00:52,318] -  RESULT true
+[INFO ][2017-04-26 11:00:52,679] -  P A S S 
+[INFO ][2017-04-26 11:00:52,680] -  Executing Test Case 1 :: Step - 14
+[INFO ][2017-04-26 11:00:52,680] -  Action :: SELECT
+[INFO ][2017-04-26 11:00:52,680] -  DataFields :: SLBobj:quantity
+[INFO ][2017-04-26 11:00:52,680] -  DataValues :: Index=2
+[INFO ][2017-04-26 11:00:52,680] -  FieldName :: select the quantity
+[INFO ][2017-04-26 11:00:52,680] -  Executing SELECT
+[INFO ][2017-04-26 11:00:52,680] -  Field = //select[@class='input']
+[INFO ][2017-04-26 11:00:52,680] -  value = Index=2
+[INFO ][2017-04-26 11:00:52,751] -  Selecting value with index 2 from dropdown 
+[INFO ][2017-04-26 11:00:57,169] -  RESULT true
+[INFO ][2017-04-26 11:00:57,588] -  P A S S 
+[INFO ][2017-04-26 11:00:57,588] -  Executing Test Case 1 :: Step - 15
+[INFO ][2017-04-26 11:00:57,588] -  Action :: VERIFYPRICE
+[INFO ][2017-04-26 11:00:57,588] -  DataFields :: XPHobj:price
+[INFO ][2017-04-26 11:00:57,588] -  DataValues :: 2
+[INFO ][2017-04-26 11:00:57,588] -  FieldName :: verify the price updation
+[INFO ][2017-04-26 11:00:57,588] -  Executing VERIFYPRICE
+[INFO ][2017-04-26 11:00:57,588] -  Fetching from user defined keywords 
+[INFO ][2017-04-26 11:00:57,704] -  RESULT true
+[INFO ][2017-04-26 11:00:58,070] -  P A S S 
+[INFO ][2017-04-26 11:00:58,070] -  Executing Test Case 1 :: Step - 16
+[INFO ][2017-04-26 11:00:58,070] -  Action :: CLICK
+[INFO ][2017-04-26 11:00:58,070] -  DataFields :: BTNobj:checkout
+[INFO ][2017-04-26 11:00:58,070] -  DataValues :: 
+[INFO ][2017-04-26 11:00:58,070] -  FieldName :: click checkout button
+[INFO ][2017-04-26 11:00:58,070] -  Executing CLICK
+[INFO ][2017-04-26 11:00:58,070] -  Field = //div[@class='row']//input[@value='Checkout']
+[INFO ][2017-04-26 11:00:58,098] -  Clicking on field click checkout button
+[INFO ][2017-04-26 11:01:03,210] -  RESULT true
+[INFO ][2017-04-26 11:01:03,637] -  P A S S 
+[INFO ][2017-04-26 11:01:03,638] -  Executing Test Case 1 :: Step - 17
+[INFO ][2017-04-26 11:01:03,638] -  Action :: WAITFORELEMENT
+[INFO ][2017-04-26 11:01:03,638] -  DataFields :: XPHobj:shipping
+[INFO ][2017-04-26 11:01:03,638] -  DataValues :: 40000
+[INFO ][2017-04-26 11:01:03,638] -  FieldName :: wait for shipping adress
+[INFO ][2017-04-26 11:01:03,638] -  Executing WAITFORELEMENT
+[INFO ][2017-04-26 11:01:03,638] -  Performing wait for element 
+[INFO ][2017-04-26 11:01:03,638] -  Field = //h1[text()='Shipping Address']
+[INFO ][2017-04-26 11:01:03,638] -  Waiting for wait for shipping adress
+[INFO ][2017-04-26 11:01:03,730] -  RESULT true
+[INFO ][2017-04-26 11:01:04,078] -  P A S S 
+[INFO ][2017-04-26 11:01:04,079] -  Executing Test Case 1 :: Step - 18
+[INFO ][2017-04-26 11:01:04,079] -  Action :: ENTER
+[INFO ][2017-04-26 11:01:04,079] -  DataFields :: TXTobj:first
+[INFO ][2017-04-26 11:01:04,079] -  DataValues :: dt:firstname
+[INFO ][2017-04-26 11:01:04,079] -  FieldName :: enter shipping details
+[INFO ][2017-04-26 11:01:04,079] -  Executing ENTER
+[INFO ][2017-04-26 11:01:04,079] -  Field = //input[@placeholder='First']
+[INFO ][2017-04-26 11:01:04,079] -  value = firstname
+[INFO ][2017-04-26 11:01:04,079] -  Typing into enter shipping details : firstname
+[INFO ][2017-04-26 11:01:04,107] -  Typing into text field 
+[INFO ][2017-04-26 11:01:04,265] -  RESULT true
+[INFO ][2017-04-26 11:01:04,642] -  P A S S 
+[INFO ][2017-04-26 11:01:04,643] -  Executing Test Case 1 :: Step - 19
+[INFO ][2017-04-26 11:01:04,643] -  Action :: ENTER
+[INFO ][2017-04-26 11:01:04,643] -  DataFields :: TXTobj:last
+[INFO ][2017-04-26 11:01:04,643] -  DataValues :: dt:lastname
+[INFO ][2017-04-26 11:01:04,643] -  FieldName :: enter shipping details
+[INFO ][2017-04-26 11:01:04,643] -  Executing ENTER
+[INFO ][2017-04-26 11:01:04,643] -  Field = //input[@placeholder='Last']
+[INFO ][2017-04-26 11:01:04,643] -  value = secondname
+[INFO ][2017-04-26 11:01:04,643] -  Typing into enter shipping details : secondname
+[INFO ][2017-04-26 11:01:04,671] -  Typing into text field 
+[INFO ][2017-04-26 11:01:04,819] -  RESULT true
+[INFO ][2017-04-26 11:01:05,292] -  P A S S 
+[INFO ][2017-04-26 11:01:05,292] -  Executing Test Case 1 :: Step - 20
+[INFO ][2017-04-26 11:01:05,292] -  Action :: ENTER
+[INFO ][2017-04-26 11:01:05,292] -  DataFields :: TXTobj:street
+[INFO ][2017-04-26 11:01:05,292] -  DataValues :: dt:street
+[INFO ][2017-04-26 11:01:05,292] -  FieldName :: enter shipping details
+[INFO ][2017-04-26 11:01:05,292] -  Executing ENTER
+[INFO ][2017-04-26 11:01:05,292] -  Field = /atg/commerce/order/purchase/ShippingGroupFormHandler.shippingAddress_address1
+[INFO ][2017-04-26 11:01:05,292] -  value = street1
+[INFO ][2017-04-26 11:01:05,292] -  Typing into enter shipping details : street1
+[INFO ][2017-04-26 11:01:05,319] -  Typing into text field 
+[INFO ][2017-04-26 11:01:05,456] -  RESULT true
+[INFO ][2017-04-26 11:01:05,914] -  P A S S 
+[INFO ][2017-04-26 11:01:05,914] -  Executing Test Case 1 :: Step - 21
+[INFO ][2017-04-26 11:01:05,914] -  Action :: SELECT
+[INFO ][2017-04-26 11:01:05,914] -  DataFields :: SLBobj:state
+[INFO ][2017-04-26 11:01:05,914] -  DataValues :: NY - New York
+[INFO ][2017-04-26 11:01:05,914] -  FieldName :: enter shipping details
+[INFO ][2017-04-26 11:01:05,914] -  Executing SELECT
+[INFO ][2017-04-26 11:01:05,914] -  Field = //select[@id='/atg/commerce/order/purchase/ShippingGroupFormHandler.shippingAddress_state']
+[INFO ][2017-04-26 11:01:05,914] -  value = NY - New York
+[INFO ][2017-04-26 11:01:06,209] -  Selecting NY - New York from dropdown 
+[INFO ][2017-04-26 11:01:07,211] -  RESULT true
+[INFO ][2017-04-26 11:01:07,631] -  P A S S 
+[INFO ][2017-04-26 11:01:07,631] -  Executing Test Case 1 :: Step - 22
+[INFO ][2017-04-26 11:01:07,631] -  Action :: ENTER
+[INFO ][2017-04-26 11:01:07,631] -  DataFields :: TXTobj:city
+[INFO ][2017-04-26 11:01:07,631] -  DataValues :: dt:city
+[INFO ][2017-04-26 11:01:07,631] -  FieldName :: enter shipping details
+[INFO ][2017-04-26 11:01:07,631] -  Executing ENTER
+[INFO ][2017-04-26 11:01:07,631] -  Field = /atg/commerce/order/purchase/ShippingGroupFormHandler.shippingAddress_city
+[INFO ][2017-04-26 11:01:07,631] -  value = new york
+[INFO ][2017-04-26 11:01:07,631] -  Typing into enter shipping details : new york
+[INFO ][2017-04-26 11:01:07,658] -  Typing into text field 
+[INFO ][2017-04-26 11:01:07,794] -  RESULT true
+[INFO ][2017-04-26 11:01:08,220] -  P A S S 
+[INFO ][2017-04-26 11:01:08,220] -  Executing Test Case 1 :: Step - 23
+[INFO ][2017-04-26 11:01:08,220] -  Action :: ENTER
+[INFO ][2017-04-26 11:01:08,220] -  DataFields :: TXTobj:zip
+[INFO ][2017-04-26 11:01:08,220] -  DataValues :: dt:zip
+[INFO ][2017-04-26 11:01:08,220] -  FieldName :: enter shipping details
+[INFO ][2017-04-26 11:01:08,220] -  Executing ENTER
+[INFO ][2017-04-26 11:01:08,220] -  Field = /atg/commerce/order/purchase/ShippingGroupFormHandler.shippingAddress_postalCode
+[INFO ][2017-04-26 11:01:08,220] -  value = 12234
+[INFO ][2017-04-26 11:01:08,220] -  Typing into enter shipping details : 12234
+[INFO ][2017-04-26 11:01:08,245] -  Typing into text field 
+[INFO ][2017-04-26 11:01:08,367] -  RESULT true
+[INFO ][2017-04-26 11:01:08,833] -  P A S S 
+[INFO ][2017-04-26 11:01:08,833] -  Executing Test Case 1 :: Step - 24
+[INFO ][2017-04-26 11:01:08,833] -  Action :: ENTER
+[INFO ][2017-04-26 11:01:08,833] -  DataFields :: TXTobj:phone1
+[INFO ][2017-04-26 11:01:08,833] -  DataValues :: dt:phone1
+[INFO ][2017-04-26 11:01:08,833] -  FieldName :: enter shipping details
+[INFO ][2017-04-26 11:01:08,833] -  Executing ENTER
+[INFO ][2017-04-26 11:01:08,833] -  Field = /atg/commerce/order/purchase/ShippingGroupFormHandler.shippingAddressPhoneNumber1
+[INFO ][2017-04-26 11:01:08,833] -  value = 123
+[INFO ][2017-04-26 11:01:08,833] -  Typing into enter shipping details : 123
+[INFO ][2017-04-26 11:01:08,859] -  Typing into text field 
+[INFO ][2017-04-26 11:01:08,956] -  RESULT true
+[INFO ][2017-04-26 11:01:09,454] -  P A S S 
+[INFO ][2017-04-26 11:01:09,454] -  Executing Test Case 1 :: Step - 25
+[INFO ][2017-04-26 11:01:09,454] -  Action :: ENTER
+[INFO ][2017-04-26 11:01:09,454] -  DataFields :: TXTobj:phone2
+[INFO ][2017-04-26 11:01:09,454] -  DataValues :: dt:phone2
+[INFO ][2017-04-26 11:01:09,454] -  FieldName :: enter shipping details
+[INFO ][2017-04-26 11:01:09,454] -  Executing ENTER
+[INFO ][2017-04-26 11:01:09,454] -  Field = /atg/commerce/order/purchase/ShippingGroupFormHandler.shippingAddressPhoneNumber2
+[INFO ][2017-04-26 11:01:09,454] -  value = 456
+[INFO ][2017-04-26 11:01:09,454] -  Typing into enter shipping details : 456
+[INFO ][2017-04-26 11:01:09,480] -  Typing into text field 
+[INFO ][2017-04-26 11:01:09,568] -  RESULT true
+[INFO ][2017-04-26 11:01:09,969] -  P A S S 
+[INFO ][2017-04-26 11:01:09,969] -  Executing Test Case 1 :: Step - 26
+[INFO ][2017-04-26 11:01:09,969] -  Action :: ENTER
+[INFO ][2017-04-26 11:01:09,969] -  DataFields :: TXTobj:phone3
+[INFO ][2017-04-26 11:01:09,969] -  DataValues :: dt:phone3
+[INFO ][2017-04-26 11:01:09,969] -  FieldName :: enter shipping details
+[INFO ][2017-04-26 11:01:09,969] -  Executing ENTER
+[INFO ][2017-04-26 11:01:09,969] -  Field = /atg/commerce/order/purchase/ShippingGroupFormHandler.shippingAddressPhoneNumber3
+[INFO ][2017-04-26 11:01:09,969] -  value = 9870
+[INFO ][2017-04-26 11:01:09,969] -  Typing into enter shipping details : 9870
+[INFO ][2017-04-26 11:01:09,995] -  Typing into text field 
+[INFO ][2017-04-26 11:01:10,087] -  RESULT true
+[INFO ][2017-04-26 11:01:10,468] -  P A S S 
+[INFO ][2017-04-26 11:01:10,468] -  Executing Test Case 1 :: Step - 27
+[INFO ][2017-04-26 11:01:10,468] -  Action :: ENTER
+[INFO ][2017-04-26 11:01:10,468] -  DataFields :: TXTobj:mail
+[INFO ][2017-04-26 11:01:10,468] -  DataValues :: dt:mail
+[INFO ][2017-04-26 11:01:10,468] -  FieldName :: enter shipping details
+[INFO ][2017-04-26 11:01:10,468] -  Executing ENTER
+[INFO ][2017-04-26 11:01:10,468] -  Field = atg_store_emailInput
+[INFO ][2017-04-26 11:01:10,468] -  value = test@test.com
+[INFO ][2017-04-26 11:01:10,468] -  Typing into enter shipping details : test@test.com
+[INFO ][2017-04-26 11:01:10,494] -  Typing into text field 
+[INFO ][2017-04-26 11:01:10,670] -  RESULT true
+[INFO ][2017-04-26 11:01:11,044] -  P A S S 
+[INFO ][2017-04-26 11:01:11,044] -  Executing Test Case 1 :: Step - 28
+[INFO ][2017-04-26 11:01:11,044] -  Action :: CLICK
+[INFO ][2017-04-26 11:01:11,044] -  DataFields :: BTNobj:guest
+[INFO ][2017-04-26 11:01:11,044] -  DataValues :: 
+[INFO ][2017-04-26 11:01:11,044] -  FieldName :: click check out as guest button
+[INFO ][2017-04-26 11:01:11,044] -  Executing CLICK
+[INFO ][2017-04-26 11:01:11,044] -  Field = //input[@value='Checkout as a guest']
+[INFO ][2017-04-26 11:01:11,070] -  Clicking on field click check out as guest button
+[INFO ][2017-04-26 11:01:16,351] -  RESULT true
+[INFO ][2017-04-26 11:01:16,712] -  P A S S 
+[INFO ][2017-04-26 11:01:16,712] -  Executing Test Case 1 :: Step - 29
+[INFO ][2017-04-26 11:01:16,712] -  Action :: CLICK
+[INFO ][2017-04-26 11:01:16,712] -  DataFields :: BTNobj:guest
+[INFO ][2017-04-26 11:01:16,712] -  DataValues :: 
+[INFO ][2017-04-26 11:01:16,712] -  FieldName :: click check out as guest button
+[INFO ][2017-04-26 11:01:16,712] -  Executing CLICK
+[INFO ][2017-04-26 11:01:16,712] -  Field = //input[@value='Checkout as a guest']
+[INFO ][2017-04-26 11:01:16,730] -  Clicking on field click check out as guest button
+[INFO ][2017-04-26 11:01:27,739] -  RESULT true
+[INFO ][2017-04-26 11:01:29,283] -  P A S S 
+[INFO ][2017-04-26 11:01:29,283] -  Executing Test Case 1 :: Step - 30
+[INFO ][2017-04-26 11:01:29,283] -  Action :: VERIFY
+[INFO ][2017-04-26 11:01:29,283] -  DataFields :: BTN
+[INFO ][2017-04-26 11:01:29,283] -  DataValues :: obj:payment
+[INFO ][2017-04-26 11:01:29,283] -  FieldName :: verify the payment tab
+[INFO ][2017-04-26 11:01:29,283] -  Executing VERIFY
+[INFO ][2017-04-26 11:01:29,283] -  value = obj:payment
+[INFO ][2017-04-26 11:01:29,283] -  Field = //h3[text()='Payment Information']
+[INFO ][2017-04-26 11:01:29,379] -  RESULT true
+[INFO ][2017-04-26 11:01:29,726] -  P A S S 
+[INFO ][2017-04-26 11:01:29,726] -  Executing Test Case 1 :: Step - 31
+[INFO ][2017-04-26 11:01:29,726] -  Action :: ENTER
+[INFO ][2017-04-26 11:01:29,726] -  DataFields :: TXTobj:cardnum
+[INFO ][2017-04-26 11:01:29,726] -  DataValues :: 1234567890
+[INFO ][2017-04-26 11:01:29,726] -  FieldName :: enter card number
+[INFO ][2017-04-26 11:01:29,726] -  Executing ENTER
+[INFO ][2017-04-26 11:01:29,726] -  Field = creditCardSelecter
+[INFO ][2017-04-26 11:01:29,726] -  value = 1234567890
+[INFO ][2017-04-26 11:01:29,726] -  Typing into enter card number : 1234567890
+[INFO ][2017-04-26 11:01:29,751] -  Typing into text field 
+[INFO ][2017-04-26 11:01:29,884] -  RESULT true
+[INFO ][2017-04-26 11:01:30,268] -  P A S S 
+[INFO ][2017-04-26 11:01:30,268] -  Executing Test Case 1 :: Step - 32
+[INFO ][2017-04-26 11:01:30,268] -  Action :: SELECT
+[INFO ][2017-04-26 11:01:30,268] -  DataFields :: SLBobj:expirymonth
+[INFO ][2017-04-26 11:01:30,268] -  DataValues :: Index=3
+[INFO ][2017-04-26 11:01:30,268] -  FieldName :: enter expiry month
+[INFO ][2017-04-26 11:01:30,268] -  Executing SELECT
+[INFO ][2017-04-26 11:01:30,268] -  Field = //select[@id='BillingFormHandler.creditCard.expirationMonth']
+[INFO ][2017-04-26 11:01:30,268] -  value = Index=3
+[INFO ][2017-04-26 11:01:30,332] -  Selecting value with index 3 from dropdown 
+[INFO ][2017-04-26 11:01:31,518] -  RESULT true
+[INFO ][2017-04-26 11:01:31,871] -  P A S S 
+[INFO ][2017-04-26 11:01:31,872] -  Executing Test Case 1 :: Step - 33
+[INFO ][2017-04-26 11:01:31,872] -  Action :: SELECT
+[INFO ][2017-04-26 11:01:31,872] -  DataFields :: SLBobj:expiryyear
+[INFO ][2017-04-26 11:01:31,872] -  DataValues :: 2020
+[INFO ][2017-04-26 11:01:31,872] -  FieldName :: enter expiry year
+[INFO ][2017-04-26 11:01:31,872] -  Executing SELECT
+[INFO ][2017-04-26 11:01:31,872] -  Field = //select[@id='BillingFormHandler.creditCard.expirationYear']
+[INFO ][2017-04-26 11:01:31,872] -  value = 2020
+[INFO ][2017-04-26 11:01:32,079] -  Selecting 2020 from dropdown 
+[INFO ][2017-04-26 11:01:33,079] -  RESULT true
+[INFO ][2017-04-26 11:01:33,422] -  P A S S 
+[INFO ][2017-04-26 11:01:33,422] -  Executing Test Case 1 :: Step - 34
+[INFO ][2017-04-26 11:01:33,422] -  Action :: ENTER
+[INFO ][2017-04-26 11:01:33,422] -  DataFields :: TXTobj:pin
+[INFO ][2017-04-26 11:01:33,422] -  DataValues :: 1234
+[INFO ][2017-04-26 11:01:33,422] -  FieldName :: enter pin number
+[INFO ][2017-04-26 11:01:33,422] -  Executing ENTER
+[INFO ][2017-04-26 11:01:33,422] -  Field = BillingFormHandler.creditCardVerificationNumber
+[INFO ][2017-04-26 11:01:33,422] -  value = 1234
+[INFO ][2017-04-26 11:01:33,422] -  Typing into enter pin number : 1234
+[INFO ][2017-04-26 11:01:33,447] -  Typing into text field 
+[INFO ][2017-04-26 11:01:33,551] -  RESULT true
+[INFO ][2017-04-26 11:01:33,943] -  P A S S 
+[INFO ][2017-04-26 11:01:33,943] -  Executing Test Case 1 :: Step - 35
+[INFO ][2017-04-26 11:01:33,943] -  Action :: CLICK
+[INFO ][2017-04-26 11:01:33,943] -  DataFields :: BTNobj:submit
+[INFO ][2017-04-26 11:01:33,943] -  DataValues :: 
+[INFO ][2017-04-26 11:01:33,944] -  FieldName :: click submit button
+[INFO ][2017-04-26 11:01:33,944] -  Executing CLICK
+[INFO ][2017-04-26 11:01:33,944] -  Field = payment_submit
+[INFO ][2017-04-26 11:01:33,969] -  Clicking on field click submit button
+[INFO ][2017-04-26 11:01:35,051] -  RESULT true
+[INFO ][2017-04-26 11:01:35,411] -  P A S S 
+[INFO ][2017-04-26 11:01:35,411] -  Adding Status Table at the end of PDF Evidence 
+[INFO ][2017-04-26 11:01:35,446] -  Exporting Test case result to excel files 
+[INFO ][2017-04-26 11:01:35,448] -  ..in export..1
+[INFO ][2017-04-26 11:01:35,448] -  ..in export..TestCase ID : 1
+[INFO ][2017-04-26 11:01:35,448] -  ..in export..Pass
+[INFO ][2017-04-26 11:01:35,448] -  ..in export..
+[INFO ][2017-04-26 11:01:35,448] -  ..in export..Wed Apr 26 11:01:35 IST 2017
+[INFO ][2017-04-26 11:01:35,448] -   Exporting time taken to execute :: 98.647
+[INFO ][2017-04-26 11:01:35,450] -   Exporting Evidence File  :: D:\E2E_java8\E2E_Framework\Screenshots\sharperimage\042617\Log - 042617_105934\1.pdf
+[INFO ][2017-04-26 11:01:35,457] -  Exporting Test Results to DB 
+[ERROR][2017-04-26 11:01:37,461] -  Encountered SQLException 
+[ERROR][2017-04-26 11:01:37,461] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ][2017-04-26 11:01:55,411] -  Exporting Execution Summary to excel files 
+[INFO ][2017-04-26 11:01:55,414] -  Browser :: CHROME
+[INFO ][2017-04-26 11:01:55,414] -  Total Cases :: 1
+[INFO ][2017-04-26 11:01:55,414] -  Passed :: 0
+[INFO ][2017-04-26 11:01:55,414] -  Failed :: 0
+[INFO ][2017-04-26 11:01:55,414] -  Skipped :: 1
+[INFO ][2017-04-26 11:01:55,418] -  Quitting the web browser 

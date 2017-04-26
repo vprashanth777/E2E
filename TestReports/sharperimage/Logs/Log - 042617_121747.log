@@ -1,0 +1,223 @@
+[INFO ][2017-04-26 12:17:47,657] -  Reading Properties from Property File 
+[INFO ][2017-04-26 12:17:47,657] - Reading properties from Property File :..//properties//sharperimage.xml
+[INFO ][2017-04-26 12:17:47,658] -  Creating Document Builder Factory 
+[INFO ][2017-04-26 12:17:47,662] -  Document object created to parse the CML File 
+[INFO ][2017-04-26 12:17:47,662] -  Reading the properties for App details 
+[INFO ][2017-04-26 12:17:47,662] -  Reading properties for appDetails
+[INFO ][2017-04-26 12:17:47,666] -  Read Property logo :: https://upload.wikimedia.org/wikipedia/en/0/02/Group_O_Logo_2013.png
+[INFO ][2017-04-26 12:17:47,666] -  Reading the common properties
+[INFO ][2017-04-26 12:17:47,666] -  Reading properties for common
+[INFO ][2017-04-26 12:17:47,669] -  Read Property reportFailureAsBug :: false
+[INFO ][2017-04-26 12:17:47,669] -  Read Property sendMailReport :: true
+[INFO ][2017-04-26 12:17:47,669] -  Read Property executeFailedCases :: false
+[INFO ][2017-04-26 12:17:47,670] -  Read Property noOfIterations :: 2
+[INFO ][2017-04-26 12:17:47,670] -  Read Property updateResultsDB :: true
+[INFO ][2017-04-26 12:17:47,670] -  Read Property useGrid :: false
+[INFO ][2017-04-26 12:17:47,670] -  Reading the misc properties
+[INFO ][2017-04-26 12:17:47,670] -  Reading properties for misc
+[INFO ][2017-04-26 12:17:47,672] -  Read Property reportPriority :: true
+[INFO ][2017-04-26 12:17:47,672] -  Read Property reportReq :: true
+[INFO ][2017-04-26 12:17:47,672] -  Read Property clearCookies :: true
+[INFO ][2017-04-26 12:17:47,672] -  Read Property closeBrowserSessions :: true
+[INFO ][2017-04-26 12:17:47,672] -  Read Property detailedLogs :: false
+[INFO ][2017-04-26 12:17:47,672] -  Read Property createEvidence :: true
+[INFO ][2017-04-26 12:17:47,672] -  Read Property steplevelscreenshot :: false
+[INFO ][2017-04-26 12:17:47,672] -  Read Property mergeReports :: true
+[INFO ][2017-04-26 12:17:47,672] -  Reading the Application Android properties
+[INFO ][2017-04-26 12:17:47,672] -  Reading properties for android
+[INFO ][2017-04-26 12:17:47,674] -  Read Property MobileAppPackageName :: com.entradahealth.entrada.android
+[INFO ][2017-04-26 12:17:47,674] -  Read Property MobileAppActivityName :: com.entradahealth.entrada.android
+[INFO ][2017-04-26 12:17:47,674] -  Read Property AndroidVersion :: 4.2
+[INFO ][2017-04-26 12:17:47,674] -  Read Property AndroidAutomationPlatform :: Windows
+[INFO ][2017-04-26 12:17:47,674] -  Read Property ApkPath :: D:\E2E Framework\TestInputs\Kesineni_POC_Android_V0.7_.apk
+[INFO ][2017-04-26 12:17:47,674] -  Reading the Application Database properties
+[INFO ][2017-04-26 12:17:47,674] -  Reading properties for appDataDB
+[INFO ][2017-04-26 12:17:47,675] -  Read Property appDB_URL :: jdbc:mysql://localhost:3306/
+[INFO ][2017-04-26 12:17:47,675] -  Read Property appDB_driver :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 12:17:47,675] -  Read Property appDB_userName :: root
+[INFO ][2017-04-26 12:17:47,675] -  Read Property appDB_password :: root
+[INFO ][2017-04-26 12:17:47,675] -  Read Property app_DatabaseName :: sample
+[INFO ][2017-04-26 12:17:47,675] -  Property :: isGridEnabled -> false
+[INFO ][2017-04-26 12:17:47,675] -  Property :: reportFailureAsBug -> false
+[INFO ][2017-04-26 12:17:47,675] -  Property :: executeFailedCases -> false
+[INFO ][2017-04-26 12:17:47,676] -  Property :: noOfIterations -> 2
+[INFO ][2017-04-26 12:17:47,676] -  Property :: sendMailReport -> true
+[INFO ][2017-04-26 12:17:47,676] -  Property :: updateResultsDB -> true
+[INFO ][2017-04-26 12:17:47,676] -  Property :: reportPriority -> true
+[INFO ][2017-04-26 12:17:47,676] -  Property :: reportReq -> true
+[INFO ][2017-04-26 12:17:47,676] -  Property :: clearCookies -> true
+[INFO ][2017-04-26 12:17:47,676] -  Property :: closeBrowserSessions -> true
+[INFO ][2017-04-26 12:17:47,676] -  Property :: detailedLog -> false
+[INFO ][2017-04-26 12:17:47,676] -  Property :: steplevelscreenshot -> false
+[INFO ][2017-04-26 12:17:47,676] -  Property :: createEvidence -> true
+[INFO ][2017-04-26 12:17:47,676] -  Property :: useObjectRepo -> true
+[INFO ][2017-04-26 12:17:47,676] -  Property :: screenShotdir -> D:\E2E_java8\E2E\TestInputs\..\ScreenShots\
+[INFO ][2017-04-26 12:17:47,676] -  Property :: createpdf -> false
+[INFO ][2017-04-26 12:17:47,676] -  Property :: mergeReports -> true
+[INFO ][2017-04-26 12:17:47,676] -  Property :: mergeReports -> true
+[INFO ][2017-04-26 12:17:47,676] -  Screenshots directory is D:\E2E_java8\E2E\TestInputs\..\ScreenShots\
+[INFO ][2017-04-26 12:17:47,676] -  Reading details of email configuration 
+[INFO ][2017-04-26 12:17:47,676] -  Reading properties for email
+[INFO ][2017-04-26 12:17:47,678] -  Read Property SMTP_HOST_NAME :: mail01.valuelabs.com
+[INFO ][2017-04-26 12:17:47,678] -  Read Property SMTP_PORT :: 25
+[INFO ][2017-04-26 12:17:47,678] -  Read Property reportType :: Basic
+[INFO ][2017-04-26 12:17:47,678] -  Read Property recipients :: tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 12:17:47,678] -  Read Property subject :: Sharperimage Report
+[INFO ][2017-04-26 12:17:47,678] -  Read Property from :: tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 12:17:47,678] -  Read Property message :: <body><font size=4 color=DarkBlue><title>&nbsp; Sharperimage &nbsp;Execution Summary</title><br/><b>Hi All,</b><br/><br/>&nbsp;&nbsp;Please find the Automation execution summary for<em><b>&nbsp; Sharperimage &nbsp;</b></em><br/><br> &&Counters&& <br> <br/><br/>&nbsp;<b>Note</b>:This is an automatic  mail generated by Automation Script 
+		<br/><br/><div><em>Thank you,<br>Automation team.</br></em></div></font></body>
+[INFO ][2017-04-26 12:17:47,678] -  Data Source is sharperimage.xls
+[INFO ][2017-04-26 12:17:47,678] -  Reading the detils of testdata DB 
+[INFO ][2017-04-26 12:17:47,678] -  Reading properties for testdataDB
+[INFO ][2017-04-26 12:17:47,679] -  Read Property password :: root
+[INFO ][2017-04-26 12:17:47,679] -  Read Property userName :: root
+[INFO ][2017-04-26 12:17:47,679] -  Read Property driver :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 12:17:47,679] -  Read Property url :: jdbc:mysql://localhost:3306/
+[INFO ][2017-04-26 12:17:47,679] -  Read Property dbName :: phpscheduler
+[INFO ][2017-04-26 12:17:47,680] -  Reading Config Data 
+[INFO ][2017-04-26 12:17:47,680] -  TestCases to be executed [1]
+[INFO ][2017-04-26 12:17:47,680] -  Application URL  :: null
+[INFO ][2017-04-26 12:17:47,680] -  Base URL for using $baseURL :: https://www.sharperimage.com
+[INFO ][2017-04-26 12:17:47,680] -  Base URL :: https://www.sharperimage.com
+[INFO ][2017-04-26 12:17:47,680] -  Browser :: CHROME
+[INFO ][2017-04-26 12:17:47,680] -  Invoking Browser 
+[INFO ][2017-04-26 12:17:47,680] -  All the browser sessions are closed 
+[INFO ][2017-04-26 12:17:52,887] -  Chrome browser is invoked
+[INFO ][2017-04-26 12:17:55,855] -  Ready to execute the tests 
+[INFO ][2017-04-26 12:17:55,855] -  Getting the Log Execution Value 
+[INFO ][2017-04-26 12:17:55,864] -  JDBC Class  :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 12:17:55,864] -  Database Name :: phpscheduler
+[INFO ][2017-04-26 12:17:55,864] -  DB Username :: root
+[INFO ][2017-04-26 12:17:55,864] -  DB Password :: root
+[ERROR][2017-04-26 12:17:58,002] -  Exception while retrieving max log value from DB
+[ERROR][2017-04-26 12:17:58,002] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ][2017-04-26 12:17:58,002] -  Max Log Value :: 042617_121755
+[INFO ][2017-04-26 12:17:58,010] -  Creating Excel File for test results 
+[INFO ][2017-04-26 12:17:58,108] -  Excel File is created with headers 
+[INFO ][2017-04-26 12:18:29,071] -  Executing Test Case 1
+[INFO ][2017-04-26 12:18:29,072] -  Reading TestData for test case 1 from Excel 
+[INFO ][2017-04-26 12:18:29,072] -  FileName is :: sharperimage.xls
+[INFO ][2017-04-26 12:18:29,072] -  Reading Test Case Title 
+[INFO ][2017-04-26 12:18:29,213] -  Read TestCase Title :: TestCase ID : 1
+[INFO ][2017-04-26 12:18:29,214] -  Reading Values for Template test data 
+[ERROR][2017-04-26 12:18:29,215] -  Encountered Exception while reading Template TestData 
+[ERROR][2017-04-26 12:18:29,215] - No records found
+[INFO ][2017-04-26 12:18:29,215] -  Reading Requirement ID's 
+[INFO ][2017-04-26 12:18:29,218] -  Reading Priority Values 
+[INFO ][2017-04-26 12:18:29,220] -  Reading Object Repository 
+[INFO ][2017-04-26 12:18:29,221] -  Reading Parameter Values 
+[INFO ][2017-04-26 12:18:29,223] -  Reading Test Case Steps 
+[INFO ][2017-04-26 12:18:29,240] -  Executing Test Case 1 :: Step - 1
+[INFO ][2017-04-26 12:18:29,550] -  Action :: WAITTIME
+[INFO ][2017-04-26 12:18:29,551] -  DataFields :: 
+[INFO ][2017-04-26 12:18:29,551] -  DataValues :: 40000
+[INFO ][2017-04-26 12:18:29,551] -  FieldName :: Wait for popup
+[INFO ][2017-04-26 12:18:29,551] -  Executing WAITTIME
+[INFO ][2017-04-26 12:18:29,552] -  Sleeping for specified amount of time 
+[INFO ][2017-04-26 12:18:29,553] -  value = 40000
+[INFO ][2017-04-26 12:19:09,551] -  Waited for 40000 milliseconds 
+[INFO ][2017-04-26 12:19:09,551] -  RESULT true
+[INFO ][2017-04-26 12:19:09,551] -  P A S S 
+[INFO ][2017-04-26 12:19:09,556] -  Executing Test Case 1 :: Step - 2
+[INFO ][2017-04-26 12:19:09,557] -  Action :: VERIFY
+[INFO ][2017-04-26 12:19:09,557] -  DataFields :: BTN
+[INFO ][2017-04-26 12:19:09,557] -  DataValues :: obj:PopUp
+[INFO ][2017-04-26 12:19:09,557] -  FieldName :: verify the popup
+[INFO ][2017-04-26 12:19:09,558] -  Executing VERIFY
+[INFO ][2017-04-26 12:19:09,558] -  value = obj:PopUp
+[INFO ][2017-04-26 12:19:09,559] -  Field = //span[@id='popup-close-firstVisit']
+[ERROR][2017-04-26 12:19:45,819] -  Unable to find Element verify the popup
+[INFO ][2017-04-26 12:19:45,819] -  RESULT false
+[INFO ][2017-04-26 12:19:45,826] -  Directory Created :: Log Name
+[INFO ][2017-04-26 12:19:45,827] -  Directory Created :: Test Case ID
+[INFO ][2017-04-26 12:19:45,828] -  Creating Evidence PDF File 
+[ERROR][2017-04-26 12:19:56,281] - BROWSER CRASHED @ takeScreenShot_Detail
+[ERROR][2017-04-26 12:19:56,282] - chrome not reachable
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:48:19 -0700'
+System info: host: 'E0599F2L', ip: '172.17.68.127', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\AKHILA~1.MAL\AppData\Local\Temp\scoped_dir6776_13877}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.81, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1b58179a6d7f8e14da72f33410b9ad88
+[INFO ][2017-04-26 12:19:56,283] -  Adding Status Table at the end of PDF Evidence 
+[INFO ][2017-04-26 12:19:56,354] -  Exporting Test case result to excel files 
+[INFO ][2017-04-26 12:19:56,366] -  ..in export..1
+[INFO ][2017-04-26 12:19:56,367] -  ..in export..TestCase ID : 1
+[INFO ][2017-04-26 12:19:56,367] -  ..in export..Fail
+[INFO ][2017-04-26 12:19:56,367] -  ..in export..Test case failed at Step No. :: 2 Error Message ::Browser Crashed
+[INFO ][2017-04-26 12:19:56,367] -  ..in export..Wed Apr 26 12:19:56 IST 2017
+[INFO ][2017-04-26 12:19:56,367] -   Exporting time taken to execute :: 47.43
+[INFO ][2017-04-26 12:19:56,373] -   Exporting Evidence File  :: D:\E2E_java8\E2E\Screenshots\sharperimage\042617\Log - 042617_121755\1.pdf
+[INFO ][2017-04-26 12:19:56,380] -  Exporting Test Results to DB 
+[ERROR][2017-04-26 12:19:58,393] -  Encountered SQLException 
+[ERROR][2017-04-26 12:19:58,393] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ][2017-04-26 12:19:58,394] -  Chrome browser is invoked
+[INFO ][2017-04-26 12:20:10,516] -  IF condition is used IF:NEXT:4
+[INFO ][2017-04-26 12:20:10,516] -  Skipping execution to step 3
+[INFO ][2017-04-26 12:20:10,517] -  Executing Test Case 1 :: Step - 4
+[INFO ][2017-04-26 12:20:10,517] -  Action :: VERIFY
+[INFO ][2017-04-26 12:20:10,517] -  DataFields :: BTN
+[INFO ][2017-04-26 12:20:10,517] -  DataValues :: obj:category
+[INFO ][2017-04-26 12:20:10,517] -  FieldName :: verify the categories dropdown
+[INFO ][2017-04-26 12:20:10,517] -  Executing VERIFY
+[INFO ][2017-04-26 12:20:10,517] -  value = obj:category
+[INFO ][2017-04-26 12:20:10,518] -  Field = //a[text()='Shop All Categories']
+[ERROR][2017-04-26 12:20:10,620] -  Unable to find Element verify the categories dropdown
+[INFO ][2017-04-26 12:20:10,620] -  RESULT false
+[INFO ][2017-04-26 12:20:10,621] -  Creating Evidence PDF File 
+[INFO ][2017-04-26 12:20:12,875] -  IF condition is used IF:NEXT:LAST
+[INFO ][2017-04-26 12:20:12,875] -  Skipping execution to step 4
+[INFO ][2017-04-26 12:20:12,875] -  Executing Test Case 1 :: Step - 5
+[INFO ][2017-04-26 12:20:12,875] -  Action :: CLICK
+[INFO ][2017-04-26 12:20:12,875] -  DataFields :: LNKobj:Gadgets
+[INFO ][2017-04-26 12:20:12,875] -  DataValues :: 
+[INFO ][2017-04-26 12:20:12,875] -  FieldName :: click on gadgets
+[INFO ][2017-04-26 12:20:12,875] -  Executing CLICK
+[INFO ][2017-04-26 12:20:12,875] -  Field = //div[@class='row']//a[contains(.,'Gadgets') and @class='cat-select sec-cat-select']
+[ERROR][2017-04-26 12:20:12,949] -  Unable to find element click on gadgets
+[INFO ][2017-04-26 12:20:13,949] -  RESULT false
+[ERROR][2017-04-26 12:20:13,962] -  F A I L 
+[INFO ][2017-04-26 12:20:13,962] -  Taking Screen Shot for failed Case 
+[INFO ][2017-04-26 12:20:13,975] -  Executing onFail Procedure 
+[ERROR][2017-04-26 12:20:13,976] -  Can't Execute on fail command 
+[ERROR][2017-04-26 12:20:13,977] - com.java.AppTestType.sharperimage(org.openqa.selenium.WebDriver)
+[INFO ][2017-04-26 12:20:13,977] -  Adding Status Table at the end of PDF Evidence 
+[ERROR][2017-04-26 12:20:13,977] -  Unable to add Status table at the end of PDF Evidence 
+[INFO ][2017-04-26 12:20:13,977] -  Exporting Test case result to excel files 
+[INFO ][2017-04-26 12:20:13,985] -  ..in export..1
+[INFO ][2017-04-26 12:20:13,985] -  ..in export..TestCase ID : 1
+[INFO ][2017-04-26 12:20:13,985] -  ..in export..Fail
+[INFO ][2017-04-26 12:20:13,985] -  ..in export..Test case failed at Step No. :: 5 Error Message ::   Unable to find element click on gadgetsD:\E2E_java8\E2E\TestInputs\..\ScreenShots\sharperimage\042617\1_5_042617_122013.png
+[INFO ][2017-04-26 12:20:13,985] -  ..in export..Wed Apr 26 12:20:13 IST 2017
+[INFO ][2017-04-26 12:20:13,985] -   Exporting time taken to execute :: 64.737
+[INFO ][2017-04-26 12:20:13,985] -   Exporting Evidence File  :: D:\E2E_java8\E2E\Screenshots\sharperimage\042617\Log - 042617_121755\1.pdf
+[INFO ][2017-04-26 12:20:13,988] -  Exporting Test Results to DB 
+[ERROR][2017-04-26 12:20:15,995] -  Encountered SQLException 
+[ERROR][2017-04-26 12:20:15,995] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR][2017-04-26 12:20:16,004] - Unable perform any operations on the browser, So quitting and reopening the browser instance @ clear cookies
+[ERROR][2017-04-26 12:20:16,012] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:48:19 -0700'
+System info: host: 'E0599F2L', ip: '172.17.68.127', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\AKHILA~1.MAL\AppData\Local\Temp\scoped_dir5480_28427}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.81, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 4d61cba4dca64da0c1d82125ab9b17c3
+[INFO ][2017-04-26 12:20:16,975] -  Chrome browser is invoked
+[INFO ][2017-04-26 12:20:35,012] -  Exporting Execution Summary to excel files 
+[INFO ][2017-04-26 12:20:35,022] -  Browser :: CHROME
+[INFO ][2017-04-26 12:20:35,022] -  Total Cases :: 1
+[INFO ][2017-04-26 12:20:35,022] -  Passed :: 0
+[INFO ][2017-04-26 12:20:35,022] -  Failed :: 2
+[INFO ][2017-04-26 12:20:35,022] -  Skipped :: -1
+[INFO ][2017-04-26 12:20:35,025] -  Quitting the web browser 

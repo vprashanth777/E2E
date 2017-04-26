@@ -1,0 +1,23 @@
+<testConfigurations>
+
+	<!-- Keyword driven configurations -->
+		<testConfig  run="true">
+		<Application>sharperimage</Application>
+		<testcases>1</testcases>
+		<URL>https://www.sharperimage.com/</URL>
+		<browser>chrome</browser>
+		<testDataSource>sharperimage.xls</testDataSource>
+	</testConfig>
+	
+	
+	<!-- Function driven configurations -->
+
+	<testConfig run="false">
+		<Application>TestScheduler</Application>
+		<testcases>.*</testcases>
+		<URL>http://localhost:9988/Web/index.php</URL>
+		<browser>ff</browser>
+		<testDataSource>TestScheduler.java</testDataSource>
+	</testConfig>
+	
+</testConfigurations>

@@ -1,0 +1,189 @@
+[INFO ][2017-04-26 11:15:10,043] -  Reading Properties from Property File 
+[INFO ][2017-04-26 11:15:10,043] - Reading properties from Property File :..//properties//sharperimage.xml
+[INFO ][2017-04-26 11:15:10,044] -  Creating Document Builder Factory 
+[INFO ][2017-04-26 11:15:10,049] -  Document object created to parse the CML File 
+[INFO ][2017-04-26 11:15:10,049] -  Reading the properties for App details 
+[INFO ][2017-04-26 11:15:10,049] -  Reading properties for appDetails
+[INFO ][2017-04-26 11:15:10,053] -  Read Property logo :: https://upload.wikimedia.org/wikipedia/en/0/02/Group_O_Logo_2013.png
+[INFO ][2017-04-26 11:15:10,053] -  Reading the common properties
+[INFO ][2017-04-26 11:15:10,053] -  Reading properties for common
+[INFO ][2017-04-26 11:15:10,057] -  Read Property reportFailureAsBug :: false
+[INFO ][2017-04-26 11:15:10,057] -  Read Property sendMailReport :: true
+[INFO ][2017-04-26 11:15:10,057] -  Read Property executeFailedCases :: false
+[INFO ][2017-04-26 11:15:10,057] -  Read Property noOfIterations :: 2
+[INFO ][2017-04-26 11:15:10,057] -  Read Property updateResultsDB :: true
+[INFO ][2017-04-26 11:15:10,057] -  Read Property useGrid :: false
+[INFO ][2017-04-26 11:15:10,057] -  Reading the misc properties
+[INFO ][2017-04-26 11:15:10,057] -  Reading properties for misc
+[INFO ][2017-04-26 11:15:10,060] -  Read Property reportPriority :: true
+[INFO ][2017-04-26 11:15:10,061] -  Read Property reportReq :: true
+[INFO ][2017-04-26 11:15:10,061] -  Read Property clearCookies :: true
+[INFO ][2017-04-26 11:15:10,061] -  Read Property closeBrowserSessions :: true
+[INFO ][2017-04-26 11:15:10,061] -  Read Property detailedLogs :: false
+[INFO ][2017-04-26 11:15:10,061] -  Read Property createEvidence :: true
+[INFO ][2017-04-26 11:15:10,061] -  Read Property steplevelscreenshot :: false
+[INFO ][2017-04-26 11:15:10,061] -  Read Property mergeReports :: true
+[INFO ][2017-04-26 11:15:10,061] -  Reading the Application Android properties
+[INFO ][2017-04-26 11:15:10,061] -  Reading properties for android
+[INFO ][2017-04-26 11:15:10,066] -  Read Property MobileAppPackageName :: com.entradahealth.entrada.android
+[INFO ][2017-04-26 11:15:10,066] -  Read Property MobileAppActivityName :: com.entradahealth.entrada.android
+[INFO ][2017-04-26 11:15:10,066] -  Read Property AndroidVersion :: 4.2
+[INFO ][2017-04-26 11:15:10,066] -  Read Property AndroidAutomationPlatform :: Windows
+[INFO ][2017-04-26 11:15:10,066] -  Read Property ApkPath :: D:\E2E Framework\TestInputs\Kesineni_POC_Android_V0.7_.apk
+[INFO ][2017-04-26 11:15:10,066] -  Reading the Application Database properties
+[INFO ][2017-04-26 11:15:10,066] -  Reading properties for appDataDB
+[INFO ][2017-04-26 11:15:10,071] -  Read Property appDB_URL :: jdbc:mysql://localhost:3306/
+[INFO ][2017-04-26 11:15:10,071] -  Read Property appDB_driver :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 11:15:10,071] -  Read Property appDB_userName :: root
+[INFO ][2017-04-26 11:15:10,071] -  Read Property appDB_password :: root
+[INFO ][2017-04-26 11:15:10,071] -  Read Property app_DatabaseName :: sample
+[INFO ][2017-04-26 11:15:10,071] -  Property :: isGridEnabled -> false
+[INFO ][2017-04-26 11:15:10,071] -  Property :: reportFailureAsBug -> false
+[INFO ][2017-04-26 11:15:10,072] -  Property :: executeFailedCases -> false
+[INFO ][2017-04-26 11:15:10,072] -  Property :: noOfIterations -> 2
+[INFO ][2017-04-26 11:15:10,072] -  Property :: sendMailReport -> true
+[INFO ][2017-04-26 11:15:10,072] -  Property :: updateResultsDB -> true
+[INFO ][2017-04-26 11:15:10,072] -  Property :: reportPriority -> true
+[INFO ][2017-04-26 11:15:10,072] -  Property :: reportReq -> true
+[INFO ][2017-04-26 11:15:10,072] -  Property :: clearCookies -> true
+[INFO ][2017-04-26 11:15:10,072] -  Property :: closeBrowserSessions -> true
+[INFO ][2017-04-26 11:15:10,072] -  Property :: detailedLog -> false
+[INFO ][2017-04-26 11:15:10,072] -  Property :: steplevelscreenshot -> false
+[INFO ][2017-04-26 11:15:10,072] -  Property :: createEvidence -> true
+[INFO ][2017-04-26 11:15:10,072] -  Property :: useObjectRepo -> true
+[INFO ][2017-04-26 11:15:10,072] -  Property :: screenShotdir -> D:\E2E_java8\E2E_Framework\Framework\..\ScreenShots\
+[INFO ][2017-04-26 11:15:10,073] -  Property :: createpdf -> false
+[INFO ][2017-04-26 11:15:10,073] -  Property :: mergeReports -> true
+[INFO ][2017-04-26 11:15:10,073] -  Property :: mergeReports -> true
+[INFO ][2017-04-26 11:15:10,073] -  Screenshots directory is D:\E2E_java8\E2E_Framework\Framework\..\ScreenShots\
+[INFO ][2017-04-26 11:15:10,073] -  Reading details of email configuration 
+[INFO ][2017-04-26 11:15:10,073] -  Reading properties for email
+[INFO ][2017-04-26 11:15:10,076] -  Read Property SMTP_HOST_NAME :: mail01.valuelabs.com
+[INFO ][2017-04-26 11:15:10,076] -  Read Property SMTP_PORT :: 25
+[INFO ][2017-04-26 11:15:10,076] -  Read Property reportType :: Basic
+[INFO ][2017-04-26 11:15:10,076] -  Read Property recipients :: tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 11:15:10,076] -  Read Property subject :: Sharperimage Report
+[INFO ][2017-04-26 11:15:10,076] -  Read Property from :: tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 11:15:10,076] -  Read Property message :: <body><font size=4 color=DarkBlue><title>&nbsp; Sharperimage &nbsp;Execution Summary</title><br/><b>Hi All,</b><br/><br/>&nbsp;&nbsp;Please find the Automation execution summary for<em><b>&nbsp; Sharperimage &nbsp;</b></em><br/><br> &&Counters&& <br> <br/><br/>&nbsp;<b>Note</b>:This is an automatic  mail generated by Automation Script 
+		<br/><br/><div><em>Thank you,<br>Automation team.</br></em></div></font></body>
+[INFO ][2017-04-26 11:15:10,076] -  Data Source is sharperimage.xls
+[INFO ][2017-04-26 11:15:10,076] -  Reading the detils of testdata DB 
+[INFO ][2017-04-26 11:15:10,077] -  Reading properties for testdataDB
+[INFO ][2017-04-26 11:15:10,079] -  Read Property password :: root
+[INFO ][2017-04-26 11:15:10,079] -  Read Property userName :: root
+[INFO ][2017-04-26 11:15:10,079] -  Read Property driver :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 11:15:10,079] -  Read Property url :: jdbc:mysql://localhost:3306/
+[INFO ][2017-04-26 11:15:10,079] -  Read Property dbName :: phpscheduler
+[INFO ][2017-04-26 11:15:10,080] -  Reading Config Data 
+[INFO ][2017-04-26 11:15:10,080] -  TestCases to be executed [1]
+[INFO ][2017-04-26 11:15:10,080] -  Application URL  :: null
+[INFO ][2017-04-26 11:15:10,083] -  Base URL for using $baseURL :: https://www.sharperimage.com
+[INFO ][2017-04-26 11:15:10,083] -  Base URL :: https://www.sharperimage.com
+[INFO ][2017-04-26 11:15:10,083] -  Browser :: IE
+[INFO ][2017-04-26 11:15:10,083] -  Invoking Browser 
+[INFO ][2017-04-26 11:15:10,083] -  All the browser sessions are closed 
+[INFO ][2017-04-26 11:15:15,289] -  IE browser is invoked
+[INFO ][2017-04-26 11:15:18,416] -  Ready to execute the tests 
+[INFO ][2017-04-26 11:15:18,416] -  Getting the Log Execution Value 
+[INFO ][2017-04-26 11:15:18,417] -  JDBC Class  :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 11:15:18,417] -  Database Name :: phpscheduler
+[INFO ][2017-04-26 11:15:18,417] -  DB Username :: root
+[INFO ][2017-04-26 11:15:18,417] -  DB Password :: root
+[ERROR][2017-04-26 11:15:20,569] -  Exception while retrieving max log value from DB
+[ERROR][2017-04-26 11:15:20,569] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ][2017-04-26 11:15:20,573] -  Max Log Value :: 042617_111518
+[INFO ][2017-04-26 11:15:20,580] -  Creating Excel File for test results 
+[INFO ][2017-04-26 11:15:20,693] -  Excel File is created with headers 
+[INFO ][2017-04-26 11:15:34,656] -  Executing Test Case 1
+[INFO ][2017-04-26 11:15:34,656] -  Reading TestData for test case 1 from Excel 
+[INFO ][2017-04-26 11:15:34,656] -  FileName is :: sharperimage.xls
+[INFO ][2017-04-26 11:15:34,658] -  Reading Test Case Title 
+[INFO ][2017-04-26 11:15:34,800] -  Read TestCase Title :: TestCase ID : 1
+[INFO ][2017-04-26 11:15:34,800] -  Reading Values for Template test data 
+[ERROR][2017-04-26 11:15:34,801] -  Encountered Exception while reading Template TestData 
+[ERROR][2017-04-26 11:15:34,802] - No records found
+[INFO ][2017-04-26 11:15:34,803] -  Reading Requirement ID's 
+[INFO ][2017-04-26 11:15:34,807] -  Reading Priority Values 
+[INFO ][2017-04-26 11:15:34,809] -  Reading Object Repository 
+[INFO ][2017-04-26 11:15:34,810] -  Reading Parameter Values 
+[INFO ][2017-04-26 11:15:34,813] -  Reading Test Case Steps 
+[INFO ][2017-04-26 11:15:34,829] -  Executing Test Case 1 :: Step - 1
+[INFO ][2017-04-26 11:15:34,894] -  Action :: WAITTIME
+[INFO ][2017-04-26 11:15:34,894] -  DataFields :: 
+[INFO ][2017-04-26 11:15:34,894] -  DataValues :: 40000
+[INFO ][2017-04-26 11:15:34,894] -  FieldName :: Wait for popup
+[INFO ][2017-04-26 11:15:34,894] -  Executing WAITTIME
+[INFO ][2017-04-26 11:15:34,895] -  Sleeping for specified amount of time 
+[INFO ][2017-04-26 11:15:34,896] -  value = 40000
+[INFO ][2017-04-26 11:16:14,898] -  Waited for 40000 milliseconds 
+[INFO ][2017-04-26 11:16:14,898] -  RESULT true
+[INFO ][2017-04-26 11:16:14,899] -  P A S S 
+[INFO ][2017-04-26 11:16:14,907] -  Executing Test Case 1 :: Step - 2
+[INFO ][2017-04-26 11:16:14,914] -  Action :: VERIFY
+[INFO ][2017-04-26 11:16:14,914] -  DataFields :: BTN
+[INFO ][2017-04-26 11:16:14,914] -  DataValues :: obj:PopUp
+[INFO ][2017-04-26 11:16:14,914] -  FieldName :: verify the popup
+[INFO ][2017-04-26 11:16:14,914] -  Executing VERIFY
+[INFO ][2017-04-26 11:16:14,914] -  value = obj:PopUp
+[INFO ][2017-04-26 11:16:14,920] -  Field = //span[@id='popup-close-firstVisit']
+[ERROR][2017-04-26 11:16:15,565] -  Element verify the popup not found
+[INFO ][2017-04-26 11:16:15,566] -  RESULT false
+[INFO ][2017-04-26 11:16:15,567] -  Directory Created :: Log Name
+[INFO ][2017-04-26 11:16:15,567] -  Directory Created :: Test Case ID
+[INFO ][2017-04-26 11:16:15,567] -  Creating Evidence PDF File 
+[INFO ][2017-04-26 11:16:19,629] -  IF condition is used IF:NEXT:4
+[INFO ][2017-04-26 11:16:19,629] -  Skipping execution to step 3
+[INFO ][2017-04-26 11:16:19,629] -  Executing Test Case 1 :: Step - 4
+[INFO ][2017-04-26 11:16:19,632] -  Action :: VERIFY
+[INFO ][2017-04-26 11:16:19,632] -  DataFields :: BTN
+[INFO ][2017-04-26 11:16:19,632] -  DataValues :: obj:category
+[INFO ][2017-04-26 11:16:19,632] -  FieldName :: verify the categories dropdown
+[INFO ][2017-04-26 11:16:19,632] -  Executing VERIFY
+[INFO ][2017-04-26 11:16:19,632] -  value = obj:category
+[INFO ][2017-04-26 11:16:19,634] -  Field = //a[text()='Shop All Categories']
+[INFO ][2017-04-26 11:16:20,207] -  RESULT true
+[INFO ][2017-04-26 11:16:21,832] -  IF condition is used IF:NEXT:LAST
+[INFO ][2017-04-26 11:16:21,833] -  Skipping execution to step 4
+[INFO ][2017-04-26 11:16:21,833] -  Executing Test Case 1 :: Step - 5
+[INFO ][2017-04-26 11:16:21,836] -  Action :: CLICK
+[INFO ][2017-04-26 11:16:21,836] -  DataFields :: LNKobj:Gadgets
+[INFO ][2017-04-26 11:16:21,836] -  DataValues :: 
+[INFO ][2017-04-26 11:16:21,836] -  FieldName :: click on gadgets
+[INFO ][2017-04-26 11:16:21,836] -  Executing CLICK
+[INFO ][2017-04-26 11:16:21,837] -  Field = //div[@class='row']//a[contains(.,'Gadgets') and @class='cat-select sec-cat-select']
+[INFO ][2017-04-26 11:16:21,940] -  Clicking on field click on gadgets
+[INFO ][2017-04-26 11:16:27,590] -  RESULT true
+[INFO ][2017-04-26 11:16:29,558] -  P A S S 
+[INFO ][2017-04-26 11:16:29,558] -  Executing Test Case 1 :: Step - 6
+[INFO ][2017-04-26 11:16:29,560] -  Action :: WAITFORELEMENT
+[INFO ][2017-04-26 11:16:29,560] -  DataFields :: XPHobj:GadgetsText
+[INFO ][2017-04-26 11:16:29,560] -  DataValues :: 40000
+[INFO ][2017-04-26 11:16:29,560] -  FieldName :: wait for gadgets text
+[INFO ][2017-04-26 11:16:29,560] -  Executing WAITFORELEMENT
+[INFO ][2017-04-26 11:16:29,560] -  Performing wait for element 
+[INFO ][2017-04-26 11:16:29,560] -  Field = //h1[text()='Gadgets']
+[INFO ][2017-04-26 11:16:29,560] -  Waiting for wait for gadgets text
+[ERROR][2017-04-26 11:19:07,911] - wait for gadgets text   :: Element not Found
+[INFO ][2017-04-26 11:19:07,911] -  RESULT false
+[ERROR][2017-04-26 11:19:10,164] -  F A I L 
+[INFO ][2017-04-26 11:19:10,164] -  Taking Screen Shot for failed Case 
+[INFO ][2017-04-26 11:19:10,964] -  Screenshot name :: D:\E2E_java8\E2E_Framework\Framework\..\ScreenShots\sharperimage\042617\1_6_042617_111910.png
+[INFO ][2017-04-26 11:19:10,964] -  Executing onFail Procedure 
+[ERROR][2017-04-26 11:19:10,968] -  Can't Execute on fail command 
+[ERROR][2017-04-26 11:19:10,968] - com.java.AppTestType.sharperimage(org.openqa.selenium.WebDriver)
+[INFO ][2017-04-26 11:19:10,969] -  Adding Status Table at the end of PDF Evidence 
+[INFO ][2017-04-26 11:19:11,010] -  Exporting Test case result to excel files 
+[INFO ][2017-04-26 11:19:11,017] -  ..in export..1
+[INFO ][2017-04-26 11:19:11,017] -  ..in export..TestCase ID : 1
+[INFO ][2017-04-26 11:19:11,018] -  ..in export..Fail
+[INFO ][2017-04-26 11:19:11,018] -  ..in export..Test case failed at Step No. :: 6 Error Message ::  wait for gadgets text   :: Element not Found. Screen Shot : D:\E2E_java8\E2E_Framework\Framework\..\ScreenShots\sharperimage\042617\1_6_042617_111910.png
+[INFO ][2017-04-26 11:19:11,019] -  ..in export..Wed Apr 26 11:19:10 IST 2017
+[INFO ][2017-04-26 11:19:11,020] -   Exporting time taken to execute :: 176.140
+[INFO ][2017-04-26 11:19:11,024] -   Exporting Evidence File  :: D:\E2E_java8\E2E_Framework\Screenshots\sharperimage\042617\Log - 042617_111518\1.pdf
+[INFO ][2017-04-26 11:19:11,029] -  Exporting Test Results to DB 
+[ERROR][2017-04-26 11:19:13,052] -  Encountered SQLException 
+[ERROR][2017-04-26 11:19:13,052] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.

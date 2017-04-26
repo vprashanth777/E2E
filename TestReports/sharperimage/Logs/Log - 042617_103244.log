@@ -1,0 +1,173 @@
+[INFO ][2017-04-26 10:32:44,987] -  Reading Properties from Property File 
+[INFO ][2017-04-26 10:32:44,988] - Reading properties from Property File :..//properties//sharperimage.xml
+[INFO ][2017-04-26 10:32:44,988] -  Creating Document Builder Factory 
+[INFO ][2017-04-26 10:32:44,992] -  Document object created to parse the CML File 
+[INFO ][2017-04-26 10:32:44,992] -  Reading the properties for App details 
+[INFO ][2017-04-26 10:32:44,992] -  Reading properties for appDetails
+[INFO ][2017-04-26 10:32:44,995] -  Read Property logo :: https://upload.wikimedia.org/wikipedia/en/0/02/Group_O_Logo_2013.png
+[INFO ][2017-04-26 10:32:44,995] -  Reading the common properties
+[INFO ][2017-04-26 10:32:44,995] -  Reading properties for common
+[INFO ][2017-04-26 10:32:44,997] -  Read Property reportFailureAsBug :: false
+[INFO ][2017-04-26 10:32:44,997] -  Read Property sendMailReport :: true
+[INFO ][2017-04-26 10:32:44,997] -  Read Property executeFailedCases :: false
+[INFO ][2017-04-26 10:32:44,997] -  Read Property noOfIterations :: 2
+[INFO ][2017-04-26 10:32:44,997] -  Read Property updateResultsDB :: true
+[INFO ][2017-04-26 10:32:44,997] -  Read Property useGrid :: false
+[INFO ][2017-04-26 10:32:44,997] -  Reading the misc properties
+[INFO ][2017-04-26 10:32:44,997] -  Reading properties for misc
+[INFO ][2017-04-26 10:32:44,998] -  Read Property reportPriority :: true
+[INFO ][2017-04-26 10:32:44,998] -  Read Property reportReq :: true
+[INFO ][2017-04-26 10:32:44,998] -  Read Property clearCookies :: true
+[INFO ][2017-04-26 10:32:44,998] -  Read Property closeBrowserSessions :: true
+[INFO ][2017-04-26 10:32:44,998] -  Read Property detailedLogs :: false
+[INFO ][2017-04-26 10:32:44,998] -  Read Property createEvidence :: true
+[INFO ][2017-04-26 10:32:44,998] -  Read Property steplevelscreenshot :: false
+[INFO ][2017-04-26 10:32:44,998] -  Read Property mergeReports :: true
+[INFO ][2017-04-26 10:32:44,998] -  Reading the Application Android properties
+[INFO ][2017-04-26 10:32:44,998] -  Reading properties for android
+[INFO ][2017-04-26 10:32:45,000] -  Read Property MobileAppPackageName :: com.entradahealth.entrada.android
+[INFO ][2017-04-26 10:32:45,000] -  Read Property MobileAppActivityName :: com.entradahealth.entrada.android
+[INFO ][2017-04-26 10:32:45,000] -  Read Property AndroidVersion :: 4.2
+[INFO ][2017-04-26 10:32:45,000] -  Read Property AndroidAutomationPlatform :: Windows
+[INFO ][2017-04-26 10:32:45,000] -  Read Property ApkPath :: D:\E2E Framework\TestInputs\Kesineni_POC_Android_V0.7_.apk
+[INFO ][2017-04-26 10:32:45,000] -  Reading the Application Database properties
+[INFO ][2017-04-26 10:32:45,000] -  Reading properties for appDataDB
+[INFO ][2017-04-26 10:32:45,001] -  Read Property appDB_URL :: jdbc:mysql://localhost:3306/
+[INFO ][2017-04-26 10:32:45,001] -  Read Property appDB_driver :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 10:32:45,001] -  Read Property appDB_userName :: root
+[INFO ][2017-04-26 10:32:45,001] -  Read Property appDB_password :: root
+[INFO ][2017-04-26 10:32:45,001] -  Read Property app_DatabaseName :: sample
+[INFO ][2017-04-26 10:32:45,001] -  Property :: isGridEnabled -> false
+[INFO ][2017-04-26 10:32:45,002] -  Property :: reportFailureAsBug -> false
+[INFO ][2017-04-26 10:32:45,002] -  Property :: executeFailedCases -> false
+[INFO ][2017-04-26 10:32:45,002] -  Property :: noOfIterations -> 2
+[INFO ][2017-04-26 10:32:45,002] -  Property :: sendMailReport -> true
+[INFO ][2017-04-26 10:32:45,002] -  Property :: updateResultsDB -> true
+[INFO ][2017-04-26 10:32:45,002] -  Property :: reportPriority -> true
+[INFO ][2017-04-26 10:32:45,002] -  Property :: reportReq -> true
+[INFO ][2017-04-26 10:32:45,002] -  Property :: clearCookies -> true
+[INFO ][2017-04-26 10:32:45,002] -  Property :: closeBrowserSessions -> true
+[INFO ][2017-04-26 10:32:45,002] -  Property :: detailedLog -> false
+[INFO ][2017-04-26 10:32:45,002] -  Property :: steplevelscreenshot -> false
+[INFO ][2017-04-26 10:32:45,002] -  Property :: createEvidence -> true
+[INFO ][2017-04-26 10:32:45,002] -  Property :: useObjectRepo -> true
+[INFO ][2017-04-26 10:32:45,002] -  Property :: screenShotdir -> D:\E2E_java8\E2E_Framework\Framework\..\ScreenShots\
+[INFO ][2017-04-26 10:32:45,002] -  Property :: createpdf -> false
+[INFO ][2017-04-26 10:32:45,002] -  Property :: mergeReports -> true
+[INFO ][2017-04-26 10:32:45,002] -  Property :: mergeReports -> true
+[INFO ][2017-04-26 10:32:45,002] -  Screenshots directory is D:\E2E_java8\E2E_Framework\Framework\..\ScreenShots\
+[INFO ][2017-04-26 10:32:45,002] -  Reading details of email configuration 
+[INFO ][2017-04-26 10:32:45,002] -  Reading properties for email
+[INFO ][2017-04-26 10:32:45,003] -  Read Property SMTP_HOST_NAME :: mail01.valuelabs.com
+[INFO ][2017-04-26 10:32:45,003] -  Read Property SMTP_PORT :: 25
+[INFO ][2017-04-26 10:32:45,003] -  Read Property reportType :: Basic
+[INFO ][2017-04-26 10:32:45,003] -  Read Property recipients :: tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 10:32:45,003] -  Read Property subject :: Sharperimage Report
+[INFO ][2017-04-26 10:32:45,003] -  Read Property from :: tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 10:32:45,003] -  Read Property message :: <body><font size=4 color=DarkBlue><title>&nbsp; Sharperimage &nbsp;Execution Summary</title><br/><b>Hi All,</b><br/><br/>&nbsp;&nbsp;Please find the Automation execution summary for<em><b>&nbsp; Sharperimage &nbsp;</b></em><br/><br> &&Counters&& <br> <br/><br/>&nbsp;<b>Note</b>:This is an automatic  mail generated by Automation Script 
+		<br/><br/><div><em>Thank you,<br>Automation team.</br></em></div></font></body>
+[INFO ][2017-04-26 10:32:45,004] -  Data Source is sharperimage.xls
+[INFO ][2017-04-26 10:32:45,004] -  Reading the detils of testdata DB 
+[INFO ][2017-04-26 10:32:45,004] -  Reading properties for testdataDB
+[INFO ][2017-04-26 10:32:45,004] -  Read Property password :: root
+[INFO ][2017-04-26 10:32:45,005] -  Read Property userName :: root
+[INFO ][2017-04-26 10:32:45,005] -  Read Property driver :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 10:32:45,005] -  Read Property url :: jdbc:mysql://localhost:3306/
+[INFO ][2017-04-26 10:32:45,005] -  Read Property dbName :: phpscheduler
+[INFO ][2017-04-26 10:32:45,005] -  Reading Config Data 
+[INFO ][2017-04-26 10:32:45,005] -  TestCases to be executed [1]
+[INFO ][2017-04-26 10:32:45,005] -  Application URL  :: null
+[INFO ][2017-04-26 10:32:45,005] -  Base URL for using $baseURL :: https://www.sharperimage.com
+[INFO ][2017-04-26 10:32:45,005] -  Base URL :: https://www.sharperimage.com
+[INFO ][2017-04-26 10:32:45,005] -  Browser :: chrome
+[INFO ][2017-04-26 10:32:45,005] -  Invoking Browser 
+[INFO ][2017-04-26 10:32:45,005] -  All the browser sessions are closed 
+[INFO ][2017-04-26 10:32:50,183] -  Chrome browser is invoked
+[INFO ][2017-04-26 10:32:54,008] -  Ready to execute the tests 
+[INFO ][2017-04-26 10:32:54,008] -  Getting the Log Execution Value 
+[INFO ][2017-04-26 10:32:54,010] -  JDBC Class  :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 10:32:54,010] -  Database Name :: phpscheduler
+[INFO ][2017-04-26 10:32:54,010] -  DB Username :: root
+[INFO ][2017-04-26 10:32:54,010] -  DB Password :: root
+[ERROR][2017-04-26 10:32:56,185] -  Exception while retrieving max log value from DB
+[ERROR][2017-04-26 10:32:56,186] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ][2017-04-26 10:32:56,189] -  Max Log Value :: 042617_103254
+[INFO ][2017-04-26 10:32:56,196] -  Creating Excel File for test results 
+[INFO ][2017-04-26 10:32:56,271] -  Excel File is created with headers 
+[INFO ][2017-04-26 10:33:23,456] -  Executing Test Case 1
+[INFO ][2017-04-26 10:33:23,456] -  Reading TestData for test case 1 from Excel 
+[INFO ][2017-04-26 10:33:23,457] -  FileName is :: sharperimage.xls
+[INFO ][2017-04-26 10:33:23,458] -  Reading Test Case Title 
+[INFO ][2017-04-26 10:33:23,619] -  Read TestCase Title :: TestCase ID : 1
+[INFO ][2017-04-26 10:33:23,620] -  Reading Values for Template test data 
+[ERROR][2017-04-26 10:33:23,620] -  Encountered Exception while reading Template TestData 
+[ERROR][2017-04-26 10:33:23,621] - No records found
+[INFO ][2017-04-26 10:33:23,622] -  Reading Requirement ID's 
+[INFO ][2017-04-26 10:33:23,626] -  Reading Priority Values 
+[INFO ][2017-04-26 10:33:23,629] -  Reading Object Repository 
+[INFO ][2017-04-26 10:33:23,630] -  Reading Parameter Values 
+[INFO ][2017-04-26 10:33:23,633] -  Reading Test Case Steps 
+[INFO ][2017-04-26 10:33:23,651] -  Executing Test Case 1 :: Step - 1
+[INFO ][2017-04-26 10:33:23,715] -  Action :: WAITFORELEMENT
+[INFO ][2017-04-26 10:33:23,715] -  DataFields :: XPHobj:PopUp
+[INFO ][2017-04-26 10:33:23,715] -  DataValues :: 40000
+[INFO ][2017-04-26 10:33:23,715] -  FieldName :: Wait for popup
+[INFO ][2017-04-26 10:33:23,715] -  Executing WAITFORELEMENT
+[INFO ][2017-04-26 10:33:23,717] -  Performing wait for element 
+[INFO ][2017-04-26 10:33:23,717] -  Field = //span[@id='popup-close-firstVisit']
+[INFO ][2017-04-26 10:33:23,717] -  Waiting for Wait for popup
+[ERROR][2017-04-26 10:34:08,973] - Wait for popup   :: Element not Found
+[INFO ][2017-04-26 10:34:08,973] -  RESULT false
+[INFO ][2017-04-26 10:34:08,976] -  Directory Created :: Application Name
+[INFO ][2017-04-26 10:34:08,978] -  Directory Created :: TimeStamp
+[INFO ][2017-04-26 10:34:08,981] -  Directory Created :: Log Name
+[INFO ][2017-04-26 10:34:08,984] -  Directory Created :: Test Case ID
+[INFO ][2017-04-26 10:34:08,984] -  Creating Evidence PDF File 
+[ERROR][2017-04-26 10:34:12,951] -  F A I L 
+[INFO ][2017-04-26 10:34:12,952] -  Taking Screen Shot for failed Case 
+[INFO ][2017-04-26 10:34:13,401] -  Screenshot name :: D:\E2E_java8\E2E_Framework\Framework\..\ScreenShots\sharperimage\042617\1_1_042617_103412.png
+[INFO ][2017-04-26 10:34:13,401] -  Executing onFail Procedure 
+[ERROR][2017-04-26 10:34:13,404] -  Can't Execute on fail command 
+[ERROR][2017-04-26 10:34:13,404] - com.java.AppTestType.sharperimage(org.openqa.selenium.WebDriver)
+[INFO ][2017-04-26 10:34:13,404] -  Adding Status Table at the end of PDF Evidence 
+[INFO ][2017-04-26 10:34:13,438] -  Exporting Test case result to excel files 
+[INFO ][2017-04-26 10:34:13,447] -  ..in export..1
+[INFO ][2017-04-26 10:34:13,447] -  ..in export..TestCase ID : 1
+[INFO ][2017-04-26 10:34:13,448] -  ..in export..Fail
+[INFO ][2017-04-26 10:34:13,448] -  ..in export..Test case failed at Step No. :: 1 Error Message ::  Wait for popup   :: Element not Found. Screen Shot : D:\E2E_java8\E2E_Framework\Framework\..\ScreenShots\sharperimage\042617\1_1_042617_103412.png
+[INFO ][2017-04-26 10:34:13,448] -  ..in export..Wed Apr 26 10:34:13 IST 2017
+[INFO ][2017-04-26 10:34:13,449] -   Exporting time taken to execute :: 49.753
+[INFO ][2017-04-26 10:34:13,452] -   Exporting Evidence File  :: D:\E2E_java8\E2E_Framework\Screenshots\sharperimage\042617\Log - 042617_103254\1.pdf
+[INFO ][2017-04-26 10:34:13,457] -  Exporting Test Results to DB 
+[ERROR][2017-04-26 10:34:15,475] -  Encountered SQLException 
+[ERROR][2017-04-26 10:34:15,475] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ][2017-04-26 10:34:33,430] -  Creating HTML Report 
+[INFO ][2017-04-26 10:34:33,434] -  Exporting case :: 1
+[INFO ][2017-04-26 10:34:33,439] -  Reporting Test Results on Priorty 
+[INFO ][2017-04-26 10:34:33,440] -  Reporting Test Results on Requirement 
+[INFO ][2017-04-26 10:34:33,453] -  Preparing to send Email 
+[INFO ][2017-04-26 10:34:33,453] -  SMTP HOST :: mail01.valuelabs.com
+[INFO ][2017-04-26 10:34:33,453] -  SMTP PORT ::  25
+[INFO ][2017-04-26 10:34:33,453] -  From :: tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 10:34:33,453] -  Subject :: Sharperimage Report -- Failed
+[INFO ][2017-04-26 10:34:33,453] -  To :: tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 10:34:33,465] -  Session Object is created 
+[INFO ][2017-04-26 10:34:33,476] -  From Address set 
+[INFO ][2017-04-26 10:34:33,476] -  Added tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 10:34:33,476] -  Recpients are added 
+[INFO ][2017-04-26 10:34:33,485] -  Subject is created 
+[INFO ][2017-04-26 10:34:33,498] -  TestResults Excel File is added 
+[INFO ][2017-04-26 10:34:33,498] -  TestResults HTML Report is added 
+[INFO ][2017-04-26 10:34:33,499] -  Sending Mail 
+[INFO ][2017-04-26 10:34:33,583] -  Mail Sent 
+[INFO ][2017-04-26 10:34:33,583] -  Exporting Execution Summary to excel files 
+[INFO ][2017-04-26 10:34:33,586] -  Browser :: chrome
+[INFO ][2017-04-26 10:34:33,586] -  Total Cases :: 1
+[INFO ][2017-04-26 10:34:33,586] -  Passed :: 0
+[INFO ][2017-04-26 10:34:33,586] -  Failed :: 1
+[INFO ][2017-04-26 10:34:33,586] -  Skipped :: 0
+[INFO ][2017-04-26 10:34:33,590] -  Quitting the web browser 

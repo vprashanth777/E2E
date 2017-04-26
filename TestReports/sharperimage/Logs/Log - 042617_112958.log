@@ -1,0 +1,85 @@
+[INFO ][2017-04-26 11:29:58,617] -  Reading Properties from Property File 
+[INFO ][2017-04-26 11:29:58,617] - Reading properties from Property File :..//properties//sharperimage.xml
+[INFO ][2017-04-26 11:29:58,618] -  Creating Document Builder Factory 
+[INFO ][2017-04-26 11:29:58,621] -  Document object created to parse the CML File 
+[INFO ][2017-04-26 11:29:58,621] -  Reading the properties for App details 
+[INFO ][2017-04-26 11:29:58,621] -  Reading properties for appDetails
+[INFO ][2017-04-26 11:29:58,624] -  Read Property logo :: https://upload.wikimedia.org/wikipedia/en/0/02/Group_O_Logo_2013.png
+[INFO ][2017-04-26 11:29:58,624] -  Reading the common properties
+[INFO ][2017-04-26 11:29:58,624] -  Reading properties for common
+[INFO ][2017-04-26 11:29:58,626] -  Read Property reportFailureAsBug :: false
+[INFO ][2017-04-26 11:29:58,626] -  Read Property sendMailReport :: true
+[INFO ][2017-04-26 11:29:58,626] -  Read Property executeFailedCases :: false
+[INFO ][2017-04-26 11:29:58,626] -  Read Property noOfIterations :: 2
+[INFO ][2017-04-26 11:29:58,626] -  Read Property updateResultsDB :: true
+[INFO ][2017-04-26 11:29:58,626] -  Read Property useGrid :: false
+[INFO ][2017-04-26 11:29:58,626] -  Reading the misc properties
+[INFO ][2017-04-26 11:29:58,626] -  Reading properties for misc
+[INFO ][2017-04-26 11:29:58,628] -  Read Property reportPriority :: true
+[INFO ][2017-04-26 11:29:58,628] -  Read Property reportReq :: true
+[INFO ][2017-04-26 11:29:58,628] -  Read Property clearCookies :: true
+[INFO ][2017-04-26 11:29:58,628] -  Read Property closeBrowserSessions :: true
+[INFO ][2017-04-26 11:29:58,628] -  Read Property detailedLogs :: false
+[INFO ][2017-04-26 11:29:58,628] -  Read Property createEvidence :: true
+[INFO ][2017-04-26 11:29:58,628] -  Read Property steplevelscreenshot :: false
+[INFO ][2017-04-26 11:29:58,628] -  Read Property mergeReports :: true
+[INFO ][2017-04-26 11:29:58,628] -  Reading the Application Android properties
+[INFO ][2017-04-26 11:29:58,628] -  Reading properties for android
+[INFO ][2017-04-26 11:29:58,630] -  Read Property MobileAppPackageName :: com.entradahealth.entrada.android
+[INFO ][2017-04-26 11:29:58,630] -  Read Property MobileAppActivityName :: com.entradahealth.entrada.android
+[INFO ][2017-04-26 11:29:58,630] -  Read Property AndroidVersion :: 4.2
+[INFO ][2017-04-26 11:29:58,630] -  Read Property AndroidAutomationPlatform :: Windows
+[INFO ][2017-04-26 11:29:58,630] -  Read Property ApkPath :: D:\E2E Framework\TestInputs\Kesineni_POC_Android_V0.7_.apk
+[INFO ][2017-04-26 11:29:58,630] -  Reading the Application Database properties
+[INFO ][2017-04-26 11:29:58,630] -  Reading properties for appDataDB
+[INFO ][2017-04-26 11:29:58,631] -  Read Property appDB_URL :: jdbc:mysql://localhost:3306/
+[INFO ][2017-04-26 11:29:58,631] -  Read Property appDB_driver :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 11:29:58,631] -  Read Property appDB_userName :: root
+[INFO ][2017-04-26 11:29:58,631] -  Read Property appDB_password :: root
+[INFO ][2017-04-26 11:29:58,631] -  Read Property app_DatabaseName :: sample
+[INFO ][2017-04-26 11:29:58,631] -  Property :: isGridEnabled -> false
+[INFO ][2017-04-26 11:29:58,631] -  Property :: reportFailureAsBug -> false
+[INFO ][2017-04-26 11:29:58,631] -  Property :: executeFailedCases -> false
+[INFO ][2017-04-26 11:29:58,632] -  Property :: noOfIterations -> 2
+[INFO ][2017-04-26 11:29:58,632] -  Property :: sendMailReport -> true
+[INFO ][2017-04-26 11:29:58,632] -  Property :: updateResultsDB -> true
+[INFO ][2017-04-26 11:29:58,632] -  Property :: reportPriority -> true
+[INFO ][2017-04-26 11:29:58,632] -  Property :: reportReq -> true
+[INFO ][2017-04-26 11:29:58,632] -  Property :: clearCookies -> true
+[INFO ][2017-04-26 11:29:58,632] -  Property :: closeBrowserSessions -> true
+[INFO ][2017-04-26 11:29:58,632] -  Property :: detailedLog -> false
+[INFO ][2017-04-26 11:29:58,632] -  Property :: steplevelscreenshot -> false
+[INFO ][2017-04-26 11:29:58,632] -  Property :: createEvidence -> true
+[INFO ][2017-04-26 11:29:58,632] -  Property :: useObjectRepo -> true
+[INFO ][2017-04-26 11:29:58,632] -  Property :: screenShotdir -> D:\E2E_java8\E2E_Framework\Framework\..\ScreenShots\
+[INFO ][2017-04-26 11:29:58,632] -  Property :: createpdf -> false
+[INFO ][2017-04-26 11:29:58,632] -  Property :: mergeReports -> true
+[INFO ][2017-04-26 11:29:58,632] -  Property :: mergeReports -> true
+[INFO ][2017-04-26 11:29:58,632] -  Screenshots directory is D:\E2E_java8\E2E_Framework\Framework\..\ScreenShots\
+[INFO ][2017-04-26 11:29:58,632] -  Reading details of email configuration 
+[INFO ][2017-04-26 11:29:58,632] -  Reading properties for email
+[INFO ][2017-04-26 11:29:58,633] -  Read Property SMTP_HOST_NAME :: mail01.valuelabs.com
+[INFO ][2017-04-26 11:29:58,633] -  Read Property SMTP_PORT :: 25
+[INFO ][2017-04-26 11:29:58,633] -  Read Property reportType :: Basic
+[INFO ][2017-04-26 11:29:58,633] -  Read Property recipients :: tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 11:29:58,633] -  Read Property subject :: Sharperimage Report
+[INFO ][2017-04-26 11:29:58,633] -  Read Property from :: tejomayi.kosana@valuelabs.com
+[INFO ][2017-04-26 11:29:58,633] -  Read Property message :: <body><font size=4 color=DarkBlue><title>&nbsp; Sharperimage &nbsp;Execution Summary</title><br/><b>Hi All,</b><br/><br/>&nbsp;&nbsp;Please find the Automation execution summary for<em><b>&nbsp; Sharperimage &nbsp;</b></em><br/><br> &&Counters&& <br> <br/><br/>&nbsp;<b>Note</b>:This is an automatic  mail generated by Automation Script 
+		<br/><br/><div><em>Thank you,<br>Automation team.</br></em></div></font></body>
+[INFO ][2017-04-26 11:29:58,634] -  Data Source is sharperimage.xls
+[INFO ][2017-04-26 11:29:58,634] -  Reading the detils of testdata DB 
+[INFO ][2017-04-26 11:29:58,634] -  Reading properties for testdataDB
+[INFO ][2017-04-26 11:29:58,634] -  Read Property password :: root
+[INFO ][2017-04-26 11:29:58,635] -  Read Property userName :: root
+[INFO ][2017-04-26 11:29:58,635] -  Read Property driver :: com.mysql.jdbc.Driver
+[INFO ][2017-04-26 11:29:58,635] -  Read Property url :: jdbc:mysql://localhost:3306/
+[INFO ][2017-04-26 11:29:58,635] -  Read Property dbName :: phpscheduler
+[INFO ][2017-04-26 11:29:58,635] -  Reading Config Data 
+[INFO ][2017-04-26 11:29:58,635] -  TestCases to be executed [1]
+[INFO ][2017-04-26 11:29:58,635] -  Application URL  :: null
+[INFO ][2017-04-26 11:29:58,635] -  Base URL for using $baseURL :: https://www.sharperimage.com
+[INFO ][2017-04-26 11:29:58,635] -  Base URL :: https://www.sharperimage.com
+[INFO ][2017-04-26 11:29:58,635] -  Browser :: ff
+[INFO ][2017-04-26 11:29:58,635] -  Invoking Browser 
+[INFO ][2017-04-26 11:29:58,635] -  All the browser sessions are closed 
+[INFO ][2017-04-26 11:30:03,807] -  Firefox browser is invoked
